@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="Page4" Height="800" Width="800">
     <Grid>
-        
+        <Image HorizontalAlignment="Left" Height="234" VerticalAlignment="Top" Width="251" Source="Capture.JPG" Margin="-62,-30,0,0"/>
+        <TextBlock HorizontalAlignment="Left" Margin="189,0,0,0" TextWrapping="Wrap" Text="Emergency Shelter Provider Maintenance Page (Test, Subject to change)" VerticalAlignment="Top" Height="125" Width="593" RenderTransformOrigin="0.509,0.245" FontSize="36" FontWeight="Bold"/>
+
     </Grid>
 </Window>
