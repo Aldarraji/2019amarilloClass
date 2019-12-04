@@ -18,8 +18,8 @@
         <TextBox x:Name="textBox1_Copy" HorizontalAlignment="Left" Height="38" Margin="408,453,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197" FontSize="20" TextChanged="TextBox1_TextChanged"/>
         <Label x:Name="label2" Content="UserID" HorizontalAlignment="Left" Margin="253,394,0,0" VerticalAlignment="Top" FontSize="20"/>
         <Label x:Name="label2_Copy" Content="Password" HorizontalAlignment="Left" Margin="253,453,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <Button x:Name="button" Content="Login" HorizontalAlignment="Left" Margin="375,550,0,0" VerticalAlignment="Top" Width="124" FontSize="15" Height="33" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}"/>
-        <Button x:Name="button_Copy" Content="Register for human service" HorizontalAlignment="Left" Margin="160,550,0,0" VerticalAlignment="Top" Width="186" FontSize="15" Height="33"/>
+        <Button x:Name="button" Content="Login" HorizontalAlignment="Left" Margin="334,550,0,0" VerticalAlignment="Top" Width="124" FontSize="15" Height="33" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}"/>
+        <Button x:Name="button_Copy" Content="Register for human service" HorizontalAlignment="Left" Margin="74,550,0,0" VerticalAlignment="Top" Width="186" FontSize="15" Height="33"/>
         <Button x:Name="button_Copy1" Content="Register for providers" HorizontalAlignment="Left" Margin="531,550,0,0" VerticalAlignment="Top" Width="191" FontSize="15" Height="33"/>
         <Label x:Name="label3" Content="Forgot password" HorizontalAlignment="Left" Margin="334,640,0,0" VerticalAlignment="Top" FontSize="15" Background="{x:Null}"/>
 
