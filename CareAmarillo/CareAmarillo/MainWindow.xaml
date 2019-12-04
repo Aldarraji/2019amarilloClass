@@ -7,7 +7,13 @@
         mc:Ignorable="d"
         Title="Page1" Height="800" Width="800">
     <Grid>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="215" Margin="234,10,0,0" VerticalAlignment="Top" Width="295" Source="Capture.JPG"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="339" Margin="186,-22,0,0" VerticalAlignment="Top" Width="419" Source="Capture.JPG"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="64" Margin="255,253,0,0" TextWrapping="Wrap" Text="CareAmarillo" VerticalAlignment="Top" Width="289" FontSize="45"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="38" Margin="217,322,0,0" TextWrapping="Wrap" Text="Welcome! pleace sign in or register." VerticalAlignment="Top" Width="359" FontSize="22"/>
 
     </Grid>
 </Window>

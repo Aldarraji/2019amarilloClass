@@ -13,3 +13,30 @@ C:\Users\programmer\source\repos\CareAmarillo\CareAmarillo\obj\Debug\CareAmarill
 C:\Users\programmer\source\repos\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo.csproj.CoreCompileInputs.cache
 C:\Users\programmer\source\repos\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo.exe
 C:\Users\programmer\source\repos\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo.pdb
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\bin\Debug\CareAmarillo.exe.config
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\bin\Debug\CareAmarillo.exe
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\bin\Debug\CareAmarillo.pdb
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo.csprojAssemblyReference.cache
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\MainWindow.g.cs
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page2.g.cs
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page3.g.cs
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page4.g.cs
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page5.g.cs
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page6.g.cs
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page7.g.cs
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\App.g.cs
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo_MarkupCompile.cache
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo_MarkupCompile.lref
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\MainWindow.baml
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page2.baml
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page3.baml
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page4.baml
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page5.baml
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page6.baml
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page7.baml
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo.g.resources
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo.Properties.Resources.resources
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo.csproj.GenerateResource.cache
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo.csproj.CoreCompileInputs.cache
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo.exe
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo.pdb
