@@ -7,13 +7,24 @@
         mc:Ignorable="d"
         Title="Page3" Height="800" Width="800">
     <Grid>
-        <Button x:Name="btnRegister" Content="Register" HorizontalAlignment="Left" Margin="422,537,0,0" VerticalAlignment="Top" Width="108" Height="39" Background="#FF00C5FF" Foreground="White" FontSize="14" BorderBrush="#FF00F3FF"/>
-        <Button x:Name="btnLogin" Content="Login" HorizontalAlignment="Left" Margin="268,537,0,0" VerticalAlignment="Top" Width="113" BorderBrush="#FF00C5FF" Background="White" Height="39" FontSize="14" Foreground="#FF00C5FF"/>
-        <TextBox x:Name="txtInfo" Height="184" Margin="108,287,0,0" TextWrapping="Wrap" Text="This entails providing the types of service the provider can offer, volunteering information, contact information and website information. This submitted information may be changed by the registered user. Additionally, emergency shelter providers can provide information on their shelters, shelter requirements for use, the number of open and available beds for use, location, and information pertaining to warming stations. This submitted information may be changed by the registered user." VerticalAlignment="Top" Width="593" RenderTransformOrigin="0.312,0.886" BorderBrush="White" Foreground="#FF9E9E9E" FontSize="16" HorizontalAlignment="Left"/>
-        <Button x:Name="btnChange" Content="Change Password" HorizontalAlignment="Left" Margin="324,615,0,0" VerticalAlignment="Top" Width="158" BorderBrush="White" Background="White" Foreground="#FF00C5FF"/>
-        <Image x:Name="imgHands" HorizontalAlignment="Left" Height="197" Margin="268,-12,0,0" VerticalAlignment="Top" Width="262" Source="Capture.JPG" RenderTransformOrigin="0.643,0.319"/>
-        <Label x:Name="lblCare" Content="CareAmarillo" HorizontalAlignment="Left" Margin="324,132,0,0" VerticalAlignment="Top" FontSize="24" Height="95" Width="146"/>
-        <Label x:Name="lblRegister" Content="Register for emergency shelter providers" HorizontalAlignment="Left" Margin="280,159,0,0" VerticalAlignment="Top" Width="230"/>
+        <Button x:Name="btnRegister" Content="Register" HorizontalAlignment="Left" Margin="421,483,0,0" VerticalAlignment="Top" Width="108" Height="39" Background="#FF00C5FF" Foreground="White" FontSize="14" BorderBrush="#FF00F3FF"/>
+        <Button x:Name="btnLogin" Content="Login" HorizontalAlignment="Left" Margin="291,483,0,0" VerticalAlignment="Top" Width="113" BorderBrush="#FF00C5FF" Background="White" Height="39" FontSize="14" Foreground="#FF00C5FF"/>
+        <Button x:Name="btnChange" Content="Change Password" HorizontalAlignment="Left" Margin="337,540,0,0" VerticalAlignment="Top" Width="146" BorderBrush="White" Background="White" Foreground="#FF00C5FF"/>
+        <Image x:Name="imgHands" HorizontalAlignment="Left" Height="197" Margin="303,-12,0,0" VerticalAlignment="Top" Width="262" Source="Capture.JPG" RenderTransformOrigin="0.643,0.319"/>
+        <Label x:Name="lblCare" Content="CareAmarillo" HorizontalAlignment="Left" Margin="337,159,0,0" VerticalAlignment="Top" FontSize="24" Height="95" Width="146"/>
+        <Label x:Name="lblRegister" Content="Register as an emergency shelter provider" HorizontalAlignment="Left" Margin="291,190,0,0" VerticalAlignment="Top" Width="238"/>
+        <Label Content="Provider Name" HorizontalAlignment="Left" Height="34" Margin="291,231,0,0" VerticalAlignment="Top" Width="98"/>
+        <Label Content="UserID" HorizontalAlignment="Left" Height="34" Margin="291,265,0,0" VerticalAlignment="Top" Width="69"/>
+        <Label Content="Password" HorizontalAlignment="Left" Height="34" Margin="291,299,0,0" VerticalAlignment="Top" Width="69"/>
+        <Label Content="Email" HorizontalAlignment="Left" Height="34" Margin="291,333,0,0" VerticalAlignment="Top" Width="69"/>
+        <Label Content="Address" HorizontalAlignment="Left" Height="34" Margin="291,367,0,0" VerticalAlignment="Top" Width="69"/>
+        <Label Content="Phone Number" HorizontalAlignment="Left" Height="34" Margin="291,401,0,0" VerticalAlignment="Top" Width="98"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="432,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TextAlignment="Center"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="432,299,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TextAlignment="Center"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="432,333,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TextAlignment="Center"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="432,367,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TextAlignment="Center"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="432,401,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TextAlignment="Center"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="432,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TextAlignment="Center"/>
 
     </Grid>
 </Window>
