@@ -12,15 +12,15 @@
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
         <Image x:Name="image" HorizontalAlignment="Left" Height="231" Margin="253,10,0,0" VerticalAlignment="Top" Width="311" Source="Capture.JPG"/>
-        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="38" Margin="408,442,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197" FontSize="20" TextChanged="TextBox1_TextChanged"/>
-        <Label x:Name="label" Content="CareAmarillo" HorizontalAlignment="Left" Margin="253,224,0,0" VerticalAlignment="Top" FontSize="45"/>
-        <Label x:Name="label1" Content="Welcome! pleace sign in or register." HorizontalAlignment="Left" Margin="217,299,0,0" VerticalAlignment="Top" FontSize="22"/>
-        <TextBox x:Name="textBox1_Copy" HorizontalAlignment="Left" Height="38" Margin="408,501,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197" FontSize="20" TextChanged="TextBox1_TextChanged"/>
-        <Label x:Name="label2" Content="UserID" HorizontalAlignment="Left" Margin="253,442,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <Label x:Name="label2_Copy" Content="Password" HorizontalAlignment="Left" Margin="253,501,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <Button x:Name="button" Content="Login" HorizontalAlignment="Left" Margin="334,598,0,0" VerticalAlignment="Top" Width="124" FontSize="15" Height="33" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}"/>
-        <Button x:Name="button_Copy" Content="Register for human service" HorizontalAlignment="Left" Margin="74,598,0,0" VerticalAlignment="Top" Width="186" FontSize="15" Height="33" Click="Button_Copy_Click"/>
-        <Button x:Name="button_Copy1" Content="Register for providers" HorizontalAlignment="Left" Margin="531,598,0,0" VerticalAlignment="Top" Width="191" FontSize="15" Height="33"/>
+        <TextBox x:Name="txtUserID" HorizontalAlignment="Left" Height="38" Margin="408,442,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197" FontSize="20" TextChanged="TextBox1_TextChanged"/>
+        <Label x:Name="lblCA" Content="CareAmarillo" HorizontalAlignment="Left" Margin="253,224,0,0" VerticalAlignment="Top" FontSize="45"/>
+        <Label x:Name="lblwel" Content="Welcome! pleace sign in or register." HorizontalAlignment="Left" Margin="217,299,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Height="38" Margin="408,501,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197" FontSize="20" TextChanged="TextBox1_TextChanged"/>
+        <Label x:Name="lblUser" Content="UserID" HorizontalAlignment="Left" Margin="253,442,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="lblPassword" Content="Password" HorizontalAlignment="Left" Margin="253,501,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Button x:Name="btnLogin" Content="Login" HorizontalAlignment="Left" Margin="334,598,0,0" VerticalAlignment="Top" Width="124" FontSize="15" Height="33" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}"/>
+        <Button x:Name="btnRegFoHS" Content="Register for human service" HorizontalAlignment="Left" Margin="74,598,0,0" VerticalAlignment="Top" Width="186" FontSize="15" Height="33" Click="Button_Copy_Click"/>
+        <Button x:Name="btnRegFoProv" Content="Register for providers" HorizontalAlignment="Left" Margin="531,598,0,0" VerticalAlignment="Top" Width="191" FontSize="15" Height="33"/>
         <Label x:Name="label3" Content="Forgot password" HorizontalAlignment="Left" Margin="334,688,0,0" VerticalAlignment="Top" FontSize="15" Background="{x:Null}"/>
 
     </Grid>
