@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="Page7" Height="800" Width="800">
     <Grid>
-        
+        <TextBox Name="txtSearch" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Search..." VerticalAlignment="Top" Width="664" Margin="10,10,0,0"/>
+        <Button Name="btnSubmit" Content="Search!" HorizontalAlignment="Left" Margin="679,10,0,0" VerticalAlignment="Top" Width="103" Click="Button_Click" Height="23"/>
+        <Label Name="lblShelters" Content="" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" Width="772" Height="721"/>
     </Grid>
 </Window>
