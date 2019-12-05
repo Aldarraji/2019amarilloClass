@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CareAmarillo"
+    "\\CareAmarillo",
+    "\\CareAmarillo\\CareAmarillo"
   ],
-  "SelectedNode": "\\CareAmarillo",
+  "SelectedNode": "\\CareAmarillo\\CareAmarillo.sln",
   "PreviewInSolutionExplorer": false
 }
