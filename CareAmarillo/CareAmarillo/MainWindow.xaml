@@ -11,7 +11,7 @@
             <ColumnDefinition/>
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="339" Margin="186,-22,0,0" VerticalAlignment="Top" Width="419" Source="Capture.JPG"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="231" Margin="253,10,0,0" VerticalAlignment="Top" Width="311" Source="Capture.JPG"/>
         <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="38" Margin="408,394,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197" FontSize="20" TextChanged="TextBox1_TextChanged"/>
         <Label x:Name="label" Content="CareAmarillo" HorizontalAlignment="Left" Margin="253,224,0,0" VerticalAlignment="Top" FontSize="45"/>
         <Label x:Name="label1" Content="Welcome! pleace sign in or register." HorizontalAlignment="Left" Margin="217,299,0,0" VerticalAlignment="Top" FontSize="22"/>

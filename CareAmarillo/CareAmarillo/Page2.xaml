@@ -10,7 +10,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="339" Margin="198,-59,0,0" VerticalAlignment="Top" Width="418" Source="Capture.JPG"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="216" Margin="265,2,0,0" VerticalAlignment="Top" Width="284" Source="Capture.JPG"/>
         <Label x:Name="label" Content="CareAmarillo" HorizontalAlignment="Left" Margin="264,187,0,0" VerticalAlignment="Top" FontSize="45"/>
         <Label x:Name="label1" Content="Register for human service." HorizontalAlignment="Left" Margin="292,257,0,0" VerticalAlignment="Top" FontSize="17"/>
         <TextBox x:Name="P2textBox1" HorizontalAlignment="Left" Height="38" Margin="352,334,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198" FontSize="20" TextChanged="TextBox1_TextChanged"/>
