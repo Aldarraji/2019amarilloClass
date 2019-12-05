@@ -19,9 +19,16 @@ namespace CareAmarillo
     /// </summary>
     public partial class Page7 : Window
     {
+        private Search policeSearch;
         public Page7()
         {
             InitializeComponent();
+            policeSearch = new Search();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            lblShelters.Content = policeSearch.FindAShelter(txtSearch.Text);
         }
     }
 }
