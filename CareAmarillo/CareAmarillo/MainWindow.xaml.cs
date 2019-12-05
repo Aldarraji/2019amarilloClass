@@ -20,6 +20,8 @@ namespace CareAmarillo
     /// </summary>
     public partial class MainWindow : Window
     {
+        public object NavigationService { get; private set; }
+
         public MainWindow()
         {
             InitializeComponent();
@@ -33,6 +35,12 @@ namespace CareAmarillo
         private void TextBox1_TextChanged(object sender, TextChangedEventArgs e)
         {
 
+        }
+
+        private void Button_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            //Uri Page2 = new Uri("Page2.xaml", UriKind.Relative);
+            //this.NavigationService.
         }
     }
 }

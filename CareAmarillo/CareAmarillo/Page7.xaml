@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="Page7" Height="800" Width="800">
     <Grid>
-        
+        <Image x:Name="image" HorizontalAlignment="Left" Height="248" Margin="276,10,0,0" VerticalAlignment="Top" Width="248" Source="Capture.JPG"/>
+        <Label x:Name="label" Content="CareAmarillo" HorizontalAlignment="Left" Margin="334,219,0,0" VerticalAlignment="Top" FontSize="22"/>
+
     </Grid>
 </Window>
