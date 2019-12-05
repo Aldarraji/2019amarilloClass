@@ -21,6 +21,7 @@ namespace CareAmarillo
     public partial class MainWindow : Window
     {
         public object NavigationService { get; private set; }
+        public object NavigationFrame { get; private set; }
 
         public MainWindow()
         {
@@ -39,8 +40,7 @@ namespace CareAmarillo
 
         private void Button_Copy_Click(object sender, RoutedEventArgs e)
         {
-            //Uri Page2 = new Uri("Page2.xaml", UriKind.Relative);
-            //this.NavigationService.
+
         }
     }
 }
