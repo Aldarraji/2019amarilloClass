@@ -35,5 +35,12 @@ namespace CareAmarillo
             MainWindow MainWindow = new MainWindow();
             MainWindow.Show();
         }
+
+        private void BtnLogin_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            MainWindow MainWindow = new MainWindow();
+            MainWindow.Show();
+        }
     }
 }
