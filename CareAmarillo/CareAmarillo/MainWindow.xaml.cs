@@ -37,9 +37,7 @@ namespace CareAmarillo
 
         private void TextBox1_TextChanged(object sender, TextChangedEventArgs e)
         {
-            this.Hide();
-            Page2 page2 = new Page2();
-            page2.Show();
+            
         }
 
         private void Button_Copy_Click(object sender, RoutedEventArgs e)
@@ -69,6 +67,24 @@ namespace CareAmarillo
             this.Hide();
             UpdateInfo update = new UpdateInfo();
             update.Show();
+        }
+
+        private void BtnLogin_Click(object sender, RoutedEventArgs e)
+        {
+            //if user did not supply userID pr password
+            if (txtUserID.Text == "")
+            {
+                MessageBox.Show("Please enter a valid UserID.");
+            }
+            if (txtPassword.Text == "")
+            {
+                MessageBox.Show("Please enter a valid password.");
+            }
+
+            //if the userID and password did not match what we have in database
+
+
+            //else direct them to the correct User Page
         }
     }
 }

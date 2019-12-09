@@ -50,14 +50,25 @@ namespace CareAmarillo
 
         private void BtnRegFoProv_Click(object sender, RoutedEventArgs e)
         {
+            //if the textboxes were empty
+            if (txtBFNameP2.Text == "" | txtBLNameP2.Text == "" | txtBEmailP2.Text == "" |
+                txtBPasswordP2.Text == "" | txtBUserIDP2.Text == "" | txtBPhoneNumeP2.Text == "")
+            {
+                MessageBox.Show("Plese enter all the required information!!!");
+            }
+
             //create account 
 
+
             //show a message box to conferm the regestration
-            MessageBox.Show("You have registered successfully. \n Please press ok then log in.");
-            //take back to the main page to log in
-            this.Hide();
-            MainWindow MainWindow = new MainWindow();
-            MainWindow.Show();
+            else
+            {
+                MessageBox.Show("You have registered successfully. \n Please press ok then log in.");
+                //take back to the main page to log in
+                this.Hide();
+                MainWindow MainWindow = new MainWindow();
+                MainWindow.Show();
+            }
         }
 
         private void BtnBackP2_Click_1(object sender, RoutedEventArgs e)
