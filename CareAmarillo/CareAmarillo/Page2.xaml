@@ -28,6 +28,6 @@
         <Button x:Name="btnRegP2" Content="Register " HorizontalAlignment="Left" Margin="366,676,0,0" VerticalAlignment="Top" Width="184" Height="39" Background="#FF00C5FF" Foreground="White" FontSize="14" BorderBrush="#FF00F3FF" Click="BtnRegFoProv_Click"/>
         <TextBox x:Name="txtBLNameP2" HorizontalAlignment="Left" Height="38" Margin="352,362,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198"/>
         <Button x:Name="btnBackP2" Content="Login" HorizontalAlignment="Left" Margin="198,676,0,0" VerticalAlignment="Top" Width="113" BorderBrush="#FF00C5FF" Background="White" Height="39" FontSize="14" Foreground="#FF00C5FF" Click="BtnBackP2_Click_1"/>
-        <Button x:Name="btnChangeP2" Content="Change Password" HorizontalAlignment="Left" Margin="265,730,0,0" VerticalAlignment="Top" Width="146" BorderBrush="White" Background="White" Foreground="#FF00C5FF"/>
+        <Button x:Name="btnChangeP2" Content="Change Password" HorizontalAlignment="Left" Margin="265,730,0,0" VerticalAlignment="Top" Width="146" BorderBrush="White" Background="White" Foreground="#FF00C5FF" Click="BtnChangeP2_Click"/>
     </Grid>
 </Window>

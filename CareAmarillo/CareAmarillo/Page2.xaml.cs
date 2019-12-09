@@ -66,5 +66,13 @@ namespace CareAmarillo
             MainWindow MainWindow = new MainWindow();
             MainWindow.Show();
         }
+
+        private void BtnChangeP2_Click(object sender, RoutedEventArgs e)
+        {
+            //display change password and update info 
+            this.Hide();
+            UpdateInfo update = new UpdateInfo();
+            update.Show();
+        }
     }
 }

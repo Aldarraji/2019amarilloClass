@@ -94,3 +94,5 @@ C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\De
 C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo.csproj.CoreCompileInputs.cache
 C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo.exe
 C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo.pdb
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\UpdateInfo.g.cs
+C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\UpdateInfo.baml
