@@ -11,7 +11,7 @@
         <Image x:Name="imgLogo" Margin="263,52,269,541" Source="Capture.JPG"/>
         <Label x:Name="lblWelcomeText" Content="Welcome back, " Margin="506,21,127,700" VerticalContentAlignment="Center" FontSize="18" FontWeight="Bold"/>
         <Label Content="CareAmarillo" Margin="263,207,278,499" FontSize="36" HorizontalContentAlignment="Center"/>
-        <TextBox x:Name="txtSearch" Margin="104,294,253,426" TextWrapping="Wrap" Text="TextBox" FontSize="18" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="txtSearch" Margin="104,294,253,426" TextWrapping="Wrap" Text="Search availble resoruces" FontSize="18" VerticalContentAlignment="Center"/>
         <Button x:Name="btnSearch" Content="Search" Margin="558,294,106,426" Background="#FF75BC03" Click="BtnSearch_Click" FontSize="18" FontWeight="Bold"/>
         <ListBox x:Name="lstResult" Margin="104,370,106,45"/>
     </Grid>
