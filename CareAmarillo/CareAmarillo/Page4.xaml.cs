@@ -30,5 +30,10 @@ namespace CareAmarillo
             MainWindow MainWindow = new MainWindow();
             MainWindow.Show();
         }
+
+        private void txtNameToSearch_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

@@ -22,7 +22,7 @@ namespace CareAmarillo
         public Page6()
         {
             InitializeComponent();
-
+            txtSearch.Foreground = new SolidColorBrush(Color.FromRgb(112, 128, 144));
         }
 
         private void LblUsername_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
@@ -35,6 +35,26 @@ namespace CareAmarillo
             var searchInput = txtSearch.Text;
             lstResult.Items.Add(searchInput);
 
+        }
+
+        private void TxtSearch_MouseEnter(object sender, MouseEventArgs e)
+        {
+            if (txtSearch.Text == "Search available resources..")
+            {
+                txtSearch.Text = "";
+                txtSearch.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0));
+
+            }
+        }
+
+        private void TxtSearch_MouseLeave(object sender, MouseEventArgs e)
+        {
+            if (txtSearch.Text == "")
+            {
+                txtSearch.Text = "Search available resources..";
+                txtSearch.Foreground = new SolidColorBrush(Color.FromRgb(112, 128, 144));
+
+            }
         }
     }
 }
