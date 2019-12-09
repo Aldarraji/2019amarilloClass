@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+using System.Data.SqlClient;
+using System.Data.Sql;
+
 namespace CareAmarillo
 {
     /// <summary>
@@ -23,13 +26,16 @@ namespace CareAmarillo
         {
             InitializeComponent();
             txtSearch.Foreground = new SolidColorBrush(Color.FromRgb(112, 128, 144));
+
+            //SqlConnection connection = new SqlConnection();
+            //connection.ConnectionString = "Server=cis1.actx.edu;Database=project1;Login=db1;Password=db10;";
+            //connection.Open();
         }
 
 
         private void BtnSearch_Click(object sender, RoutedEventArgs e)
         {
             var searchInput = txtSearch.Text;
-   
 
             if (txtSearch.Text == "Search available resources..")
             {
