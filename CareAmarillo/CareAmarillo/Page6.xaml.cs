@@ -25,16 +25,20 @@ namespace CareAmarillo
             txtSearch.Foreground = new SolidColorBrush(Color.FromRgb(112, 128, 144));
         }
 
-        private void LblUsername_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            MessageBox.Show("If user click on this, another page will open to update user information. Password, Name, Email, etc.!");
-        }
 
         private void BtnSearch_Click(object sender, RoutedEventArgs e)
         {
             var searchInput = txtSearch.Text;
-            lstResult.Items.Add(searchInput);
+   
 
+            if (txtSearch.Text == "Search available resources..")
+            {
+                MessageBox.Show("Type in values to search!");
+            }
+            else
+            {
+                lstResult.Items.Add(searchInput);
+            }
         }
 
         private void TxtSearch_MouseEnter(object sender, MouseEventArgs e)
@@ -55,6 +59,33 @@ namespace CareAmarillo
                 txtSearch.Foreground = new SolidColorBrush(Color.FromRgb(112, 128, 144));
 
             }
+        }
+
+        private void LblUsername_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            MessageBox.Show("If user click on this, another page will open to update user information. Password, Name, Email, etc.!");
+        }
+
+        private void BtnClear_Click(object sender, RoutedEventArgs e)
+        {
+            if (txtSearch.Text == "Search available resources..")
+            {
+                MessageBox.Show("There is nothing to be cleared!");
+
+            }
+            else
+            {
+                lstResult.Items.Clear();
+                txtSearch.Text = "Search available resources..";
+                txtSearch.Foreground = new SolidColorBrush(Color.FromRgb(112, 128, 144));
+            }
+        }
+
+        private void LblSignout_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            this.Hide();
+            MainWindow mw = new MainWindow();
+            mw.Show();
         }
     }
 }
