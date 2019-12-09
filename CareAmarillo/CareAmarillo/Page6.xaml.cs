@@ -69,7 +69,9 @@ namespace CareAmarillo
 
         private void LblUsername_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            MessageBox.Show("If user click on this, another page will open to update user information. Password, Name, Email, etc.!");
+            this.Hide();
+            UpdateInfo updateInfo = new UpdateInfo();
+            updateInfo.Show();
         }
 
         private void BtnClear_Click(object sender, RoutedEventArgs e)
