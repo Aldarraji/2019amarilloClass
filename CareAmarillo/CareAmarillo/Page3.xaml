@@ -19,12 +19,12 @@
         <Label Content="Email" HorizontalAlignment="Left" Height="34" Margin="291,333,0,0" VerticalAlignment="Top" Width="69"/>
         <Label Content="Address" HorizontalAlignment="Left" Height="34" Margin="291,367,0,0" VerticalAlignment="Top" Width="69"/>
         <Label Content="Phone Number" HorizontalAlignment="Left" Height="34" Margin="291,401,0,0" VerticalAlignment="Top" Width="98"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="432,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TextAlignment="Center"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="432,299,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TextAlignment="Center"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="432,333,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TextAlignment="Center"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="432,367,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TextAlignment="Center"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="432,401,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TextAlignment="Center"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="432,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TextAlignment="Center"/>
+        <TextBox x:Name="txtID" HorizontalAlignment="Left" Height="20" Margin="432,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TextAlignment="Center"/>
+        <TextBox x:Name="txtPW" HorizontalAlignment="Left" Height="20" Margin="432,299,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TextAlignment="Center"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="20" Margin="432,333,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TextAlignment="Center"/>
+        <TextBox x:Name="txtAddress" HorizontalAlignment="Left" Height="20" Margin="432,367,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TextAlignment="Center"/>
+        <TextBox x:Name="txtPhone" HorizontalAlignment="Left" Height="20" Margin="432,401,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TextAlignment="Center"/>
+        <TextBox x:Name="txtPName" HorizontalAlignment="Left" Height="20" Margin="432,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TextAlignment="Center"/>
 
     </Grid>
 </Window>
