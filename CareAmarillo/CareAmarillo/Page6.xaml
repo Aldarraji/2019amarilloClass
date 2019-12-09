@@ -13,6 +13,6 @@
         <Label Content="CareAmarillo" Margin="263,207,278,499" FontSize="36" HorizontalContentAlignment="Center"/>
         <TextBox x:Name="txtSearch" Margin="104,294,253,426" TextWrapping="Wrap" Text="TextBox" FontSize="18" VerticalContentAlignment="Center"/>
         <Button x:Name="btnSearch" Content="Search" Margin="558,294,106,426" Background="#FF75BC03" Click="BtnSearch_Click" FontSize="18" FontWeight="Bold"/>
-        <TextBox HorizontalAlignment="Left" Height="359" Margin="104,375,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="582" FontSize="20"/>
+        <ListBox x:Name="lstResult" Margin="104,370,106,45"/>
     </Grid>
 </Window>

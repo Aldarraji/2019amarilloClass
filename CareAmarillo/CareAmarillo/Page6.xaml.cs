@@ -27,12 +27,14 @@ namespace CareAmarillo
 
         private void LblUsername_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            // change color on horver
             MessageBox.Show("If user click on this, another page will open to update user information. Password, Name, Email, etc.!");
         }
 
         private void BtnSearch_Click(object sender, RoutedEventArgs e)
         {
+            var searchInput = txtSearch.Text;
+            lstResult.Items.Add(searchInput);
+
         }
     }
 }
