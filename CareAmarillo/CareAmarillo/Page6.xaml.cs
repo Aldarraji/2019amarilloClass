@@ -22,6 +22,17 @@ namespace CareAmarillo
         public Page6()
         {
             InitializeComponent();
+
+        }
+
+        private void LblUsername_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            // change color on horver
+            MessageBox.Show("If user click on this, another page will open to update user information. Password, Name, Email, etc.!");
+        }
+
+        private void BtnSearch_Click(object sender, RoutedEventArgs e)
+        {
         }
     }
 }

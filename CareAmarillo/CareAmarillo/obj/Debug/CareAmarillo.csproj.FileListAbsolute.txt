@@ -67,3 +67,30 @@ F:\C Programming\CareAmarillo2019\CareAmarillo\CareAmarillo\obj\Debug\CareAmaril
 F:\C Programming\CareAmarillo2019\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo.csproj.CoreCompileInputs.cache
 F:\C Programming\CareAmarillo2019\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo.exe
 F:\C Programming\CareAmarillo2019\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo.pdb
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\bin\Debug\CareAmarillo.exe.config
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\bin\Debug\CareAmarillo.exe
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\bin\Debug\CareAmarillo.pdb
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo.csprojAssemblyReference.cache
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\MainWindow.g.cs
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page2.g.cs
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page3.g.cs
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page4.g.cs
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page5.g.cs
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page6.g.cs
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page7.g.cs
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\App.g.cs
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo_MarkupCompile.cache
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo_MarkupCompile.lref
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\MainWindow.baml
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page2.baml
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page3.baml
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page4.baml
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page5.baml
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page6.baml
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page7.baml
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo.g.resources
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo.Properties.Resources.resources
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo.csproj.GenerateResource.cache
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo.csproj.CoreCompileInputs.cache
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo.exe
+C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo.pdb

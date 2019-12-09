@@ -7,7 +7,12 @@
         mc:Ignorable="d"
         Title="Page6" Height="800" Width="800">
     <Grid>
-        <Label Content="testing label!!!" HorizontalAlignment="Left" Margin="304,309,0,0" VerticalAlignment="Top" Height="86" Width="312"/>
-
+        <Label x:Name="lblUsername" Cursor="Hand" Content="First Name!" Margin="640,20,34,701" VerticalContentAlignment="Center" FontSize="18" MouseLeftButtonDown="LblUsername_MouseLeftButtonDown" HorizontalAlignment="Left"/>
+        <Image x:Name="imgLogo" Margin="263,52,269,541" Source="Capture.JPG"/>
+        <Label x:Name="lblWelcomeText" Content="Welcome back, " Margin="506,21,127,700" VerticalContentAlignment="Center" FontSize="18" FontWeight="Bold"/>
+        <Label Content="CareAmarillo" Margin="263,207,278,499" FontSize="36" HorizontalContentAlignment="Center"/>
+        <TextBox x:Name="txtSearch" Margin="104,294,253,426" TextWrapping="Wrap" Text="TextBox" FontSize="18" VerticalContentAlignment="Center"/>
+        <Button x:Name="btnSearch" Content="Search" Margin="558,294,106,426" Background="#FF75BC03" Click="BtnSearch_Click" FontSize="18" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="359" Margin="104,375,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="582" FontSize="20"/>
     </Grid>
 </Window>
