@@ -23,5 +23,17 @@ namespace CareAmarillo
         {
             InitializeComponent();
         }
+
+        private void BtnRegister_Click(object sender, RoutedEventArgs e)
+        {
+            //create account 
+
+            //show a message box to conferm the regestration
+            MessageBox.Show("You have registered successfully. \n Please press ok then log in.");
+            //take back to the main page to log in
+            this.Hide();
+            MainWindow MainWindow = new MainWindow();
+            MainWindow.Show();
+        }
     }
 }

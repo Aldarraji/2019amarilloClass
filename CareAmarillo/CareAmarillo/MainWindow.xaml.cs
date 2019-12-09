@@ -48,5 +48,19 @@ namespace CareAmarillo
             Page2 page2 = new Page2();
             page2.Show();
         }
+
+        private void BtnRegFoHS_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            Page2 page2 = new Page2();
+            page2.Show();
+        }
+
+        private void BtnRegFoProv_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            Page3 page3 = new Page3();
+            page3.Show();
+        }
     }
 }

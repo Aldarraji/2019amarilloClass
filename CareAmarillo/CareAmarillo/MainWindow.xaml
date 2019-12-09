@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:CareAmarillo"
         mc:Ignorable="d"
         Title="Page1" Height="800" Width="800">
-    <Grid>
+    <Grid x:Name="lblchngpassP1">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition Width="0*"/>
@@ -18,10 +18,10 @@
         <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Height="38" Margin="408,501,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197" FontSize="20" TextChanged="TextBox1_TextChanged"/>
         <Label x:Name="lblUser" Content="UserID" HorizontalAlignment="Left" Margin="253,442,0,0" VerticalAlignment="Top" FontSize="20"/>
         <Label x:Name="lblPassword" Content="Password" HorizontalAlignment="Left" Margin="253,501,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <Button x:Name="btnLogin" Content="Login" HorizontalAlignment="Left" Margin="334,598,0,0" VerticalAlignment="Top" Width="124" FontSize="15" Height="33" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}"/>
-        <Button x:Name="btnRegFoHS" Content="Register for human service" HorizontalAlignment="Left" Margin="74,598,0,0" VerticalAlignment="Top" Width="186" FontSize="15" Height="33" Click="Button_Copy_Click"/>
-        <Button x:Name="btnRegFoProv" Content="Register for providers" HorizontalAlignment="Left" Margin="531,598,0,0" VerticalAlignment="Top" Width="191" FontSize="15" Height="33"/>
-        <Label x:Name="label3" Content="Forgot password" HorizontalAlignment="Left" Margin="334,688,0,0" VerticalAlignment="Top" FontSize="15" Background="{x:Null}"/>
+        <Button x:Name="btnLogin" Content="Login" HorizontalAlignment="Left" Margin="346,592,0,0" VerticalAlignment="Top" Width="113" BorderBrush="#FF00C5FF" Background="White" Height="39" FontSize="14" Foreground="#FF00C5FF"/>
+        <Button x:Name="btnRegFoHS" Content="Register for human service" HorizontalAlignment="Left" Margin="138,592,0,0" VerticalAlignment="Top" Width="185" Height="39" Background="#FF00C5FF" Foreground="White" FontSize="14" BorderBrush="#FF00F3FF" Click="BtnRegFoHS_Click"/>
+        <Button x:Name="btnRegFoProv" Content="Register for providers" HorizontalAlignment="Left" Margin="488,592,0,0" VerticalAlignment="Top" Width="184" Height="39" Background="#FF00C5FF" Foreground="White" FontSize="14" BorderBrush="#FF00F3FF" Click="BtnRegFoProv_Click"/>
+        <Button x:Name="btnChangeP2" Content="Change Password" HorizontalAlignment="Left" Margin="313,676,0,0" VerticalAlignment="Top" Width="146" BorderBrush="White" Background="White" Foreground="#FF00C5FF"/>
 
     </Grid>
 </Window>
