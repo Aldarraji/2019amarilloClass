@@ -16,8 +16,8 @@ namespace CareAmarillo
         {
             connection.ConnectionString = "Server=cis1.actx.edu;Database=project1;User Id=db1;Password=db10;";
             connection.Open();
-            Console.WriteLine(connection.ServerVersion);
-            Console.ReadKey();
+            //Console.WriteLine(connection.ServerVersion);
+            //Console.ReadKey();
         }
 
         public String FindAShelter(String shelterName)
@@ -25,7 +25,7 @@ namespace CareAmarillo
             string rec = "";
             using (SqlCommand FindAShelterRecord = connection.CreateCommand())
             {
-                FindAShelterRecord.CommandText = "select * from db_owner.Shelter where Name like @ShelterName;";
+                FindAShelterRecord.CommandText = "select * from Shelter where Name like @ShelterName;";
 
                 FindAShelterRecord.Parameters.Add(new SqlParameter("ShelterName", "%" + shelterName + "%"));
 
@@ -35,22 +35,24 @@ namespace CareAmarillo
                     // a dictionary to store the ordinal positions of each column in the table.
                     Dictionary<string, int> columnNames = new Dictionary<string, int>();
 
-                    // Actually building the above dictionary. This should be done outside of any data-read loop for performance reasons.
-                    foreach (string columnName in reader.GetSchemaTable().Columns)
+                    // Actually building the above dictionary. This should be done outside of any data-read loop for 
+                    // performance reasons.
+                    var columns = Enumerable.Range(0, reader.FieldCount).Select(reader.GetName).ToList();
+                    foreach (var columnName in columns)
                     {
-                        columnNames.Add(columnName, reader.GetOrdinal(columnName));
+                        columnNames.Add(columnName, reader.GetOrdinal(columnName.ToString()));
                     }
 
                     // Get the data you want from the SQL Select and do whatever you want with it.
                     while (reader.Read())
                     {
-                        rec = reader.GetFieldValue<string>(columnNames["Name"]) + " ";
+                        rec += reader.GetFieldValue<string>(columnNames["Name"]) + " ";
                         rec += reader.GetFieldValue<string>(columnNames["Phone"]) + " ";
                         rec += reader.GetFieldValue<string>(columnNames["Email"]) + " \n";
-                        rec += reader.GetFieldValue<string>(columnNames["BedVacancy"]) + " \n";
+                        rec += reader.GetFieldValue<int>(columnNames["BedVacancy"]) + " \n";
                         rec += reader.GetFieldValue<string>(columnNames["Address"]) + " ";
                         rec += reader.GetFieldValue<string>(columnNames["City"]) + " ";
-                        rec += reader.GetFieldValue<string>(columnNames["ZipCode"]) + " ";
+                        rec += reader.GetFieldValue<int>(columnNames["ZipCode"]) + " ";
                         rec += reader.GetFieldValue<string>(columnNames["State"]) + " \n";
                         rec += "\n";
                     }
