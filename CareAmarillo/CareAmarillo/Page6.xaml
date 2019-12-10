@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Page6" Height="800" Width="800">
     <Grid>
-        <Label x:Name="lblUsername" Cursor="Hand" Content="First Name!" Margin="627,11,0,710" VerticalContentAlignment="Center" FontSize="18" HorizontalAlignment="Left" MouseLeftButtonDown="LblUsername_MouseLeftButtonDown">
+        <Label x:Name="lblUsername" Cursor="Hand" Margin="627,11,0,710" VerticalContentAlignment="Center" FontSize="18" HorizontalAlignment="Left" MouseLeftButtonDown="LblUsername_MouseLeftButtonDown">
             <Label.ToolTip>
                 <ToolTip Background="#FF75BC03">
                     <TextBlock>Click here to view your account!</TextBlock>
@@ -22,12 +22,13 @@
         <ListBox x:Name="lstResult" Margin="74,370,235,45" FontSize="18"/>
         <Button x:Name="btnClear" Cursor="Hand" Content="Clear" Margin="598,370,66,350" Background="#FF75BC03" FontSize="18" FontWeight="Bold" Click="BtnClear_Click"/>
         <Label x:Name="lblSignout" Cursor="Hand" Content="Sign out" Margin="74,10,614,711" VerticalContentAlignment="Center" FontSize="18" FontWeight="Bold" MouseLeftButtonDown="LblSignout_MouseLeftButtonDown">
-        <Label.ToolTip>
-            <ToolTip Background="#FF75BC03">
-                <TextBlock>Click here to sign out from your account!</TextBlock>
-            </ToolTip>
-        </Label.ToolTip>
+            <Label.ToolTip>
+                <ToolTip Background="#FF75BC03">
+                    <TextBlock>Click here to sign out from your account!</TextBlock>
+                </ToolTip>
+            </Label.ToolTip>
         </Label>
+        <Label x:Name="lblWelcomeText_Copy" Content="First Name" VerticalContentAlignment="Center" FontSize="18" FontWeight="Bold" Margin="637,10,-5,711"/>
 
     </Grid>
 </Window>
