@@ -98,3 +98,18 @@ C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\
 C:\Users\MR.xXx\Desktop\advance C#\Final Project\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\UpdateInfo.baml
 C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\UpdateInfo.g.cs
 C:\Users\konyein\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\UpdateInfo.baml
+C:\Users\programmer\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo.csprojAssemblyReference.cache
+C:\Users\programmer\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\MainWindow.g.cs
+C:\Users\programmer\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page2.g.cs
+C:\Users\programmer\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page3.g.cs
+C:\Users\programmer\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page4.g.cs
+C:\Users\programmer\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page5.g.cs
+C:\Users\programmer\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page6.g.cs
+C:\Users\programmer\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page7.g.cs
+C:\Users\programmer\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\Page8.g.cs
+C:\Users\programmer\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\UpdateInfo.g.cs
+C:\Users\programmer\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\App.g.cs
+C:\Users\programmer\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo_MarkupCompile.cache
+C:\Users\programmer\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo_MarkupCompile.lref
+C:\Users\programmer\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo.exe
+C:\Users\programmer\Source\Repos\2019amarilloClass\CareAmarillo\CareAmarillo\obj\Debug\CareAmarillo.pdb
