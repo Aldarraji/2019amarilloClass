@@ -1,0 +1,27 @@
+﻿<Page x:Class="CareAmarillo.Page8"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CareAmarillo"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page8"
+     Height="800" Width="800">
+    <Grid Background="White">
+        <Image x:Name="imgLogo" Margin="250,58,290,566" Source="Capture.JPG"/>
+        <Label x:Name="lblCAp2" Content="CareAmarillo" HorizontalAlignment="Left" Margin="250,216,0,0" VerticalAlignment="Top" FontSize="45"/>
+        <Label x:Name="lblFNameP2" HorizontalAlignment="Left" Margin="198,304,0,0" VerticalAlignment="Top" FontSize="20">
+            <Label x:Name="lblFNameP2_Copy2" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20">
+                <Label x:Name="lblFNameP2_Copy3" Content="Click here to change your password" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20"/>
+            </Label>
+        </Label>
+        <Label x:Name="lblFNameP2_Copy" Content="Click here to disable or cancel account" HorizontalAlignment="Left" Margin="183,366,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="lblFNameP2_Copy1" Content="Shelter Data" HorizontalAlignment="Left" Margin="265,418,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#FF7FC769"/>
+        <Button x:Name="btnUpdateP9" Content="Update" HorizontalAlignment="Left" Margin="292,644,0,0" VerticalAlignment="Top" Width="182" Height="40" Background="#FF00C5FF" Foreground="White" FontSize="14" BorderBrush="#FF00F3FF" Click="BtnRegFoProv_Click"/>
+        <Button x:Name="btnUpdateP9_Copy" Content="Update" HorizontalAlignment="Left" Margin="292,644,0,0" VerticalAlignment="Top" Width="182" Height="40" Background="#FF00C5FF" Foreground="White" FontSize="14" BorderBrush="#FF00F3FF" Click="BtnRegFoProv_Click"/>
+        <Button x:Name="btnLogin" Content="Change Password" HorizontalAlignment="Left" Margin="559,315,0,0" VerticalAlignment="Top" Width="113" BorderBrush="#FF00C5FF" Background="White" Height="39" FontSize="14" Foreground="#FF00C5FF" Click="BtnLogin_Click"/>
+        <Button x:Name="btnLogin_Copy" Content="Account management" HorizontalAlignment="Left" Margin="559,359,0,0" VerticalAlignment="Top" Width="113" BorderBrush="#FF00C5FF" Background="White" Height="39" FontSize="14" Foreground="#FF00C5FF" Click="BtnLogin_Click"/>
+        <Button x:Name="btnLogin_Copy1" Content="Shelter Data" HorizontalAlignment="Left" Margin="559,419,0,0" VerticalAlignment="Top" Width="113" BorderBrush="#FF00C5FF" Background="White" Height="39" FontSize="14" Foreground="#FF00C5FF" Click="BtnLogin_Click"/>
+    </Grid>
+</Page>
