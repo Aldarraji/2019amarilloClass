@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Data.SqlClient;
 
 namespace CareAmarillo
 {
@@ -22,6 +23,9 @@ namespace CareAmarillo
         public Page4()
         {
             InitializeComponent();
+            SqlConnection connection = new SqlConnection();
+            connection.ConnectionString = "Server=cis1.actx.edu;Database=project1;user id=db1;Password=db10;";
+            connection.Open();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -32,6 +36,16 @@ namespace CareAmarillo
         }
 
         private void txtNameToSearch_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
         {
 
         }
