@@ -80,15 +80,12 @@ namespace CareAmarillo
         internal System.Windows.Controls.Label lblCAp2;
         internal System.Windows.Controls.Label lblFNameP2;
         internal System.Windows.Controls.Label lblFNameP2_Copy2;
-        internal System.Windows.Controls.Label lblFNameP2_Copy3;
-        internal System.Windows.Controls.Label lblFNameP2_Copy;
-        internal System.Windows.Controls.Label lblFNameP2_Copy1;
-        internal System.Windows.Controls.Button btnLogin;
-        internal System.Windows.Controls.Button btnLogin_Copy;
-        internal System.Windows.Controls.Button btnLogin_Copy1;
         internal System.Windows.Controls.Label lblWelcomeText;
         internal System.Windows.Controls.Label lblWelcomeText_Copy;
         internal System.Windows.Controls.Label lblWelcomeText_Copy1;
+        internal System.Windows.Controls.Label lblWelcomeText_Copy2;
+        internal System.Windows.Controls.Label lblWelcomeText_Copy3;
+        internal System.Windows.Controls.Label lblWelcomeText_Copy4;
     }
 }
 
