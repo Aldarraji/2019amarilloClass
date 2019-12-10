@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -26,6 +27,20 @@ namespace CareAmarillo
         public MainWindow()
         {
             InitializeComponent();
+
+
+            SqlConnection connection = new SqlConnection();
+            connection.ConnectionString = "Server=cis1.actx.edu;Database=project1;user id=db1;Password=db10;";
+            try
+            {
+                connection.Open();
+                //MessageBox.Show(connection.ServerVersion + "Successfully@!sdfsfd");
+            }
+            catch
+            {
+                MessageBox.Show("error");
+                this.Hide();
+            }
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
