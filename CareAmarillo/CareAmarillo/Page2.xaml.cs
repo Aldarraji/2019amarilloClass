@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+using System.Data.SqlClient;
+using System.Data.Sql;
+
 namespace CareAmarillo
 {
     /// <summary>
@@ -19,9 +22,13 @@ namespace CareAmarillo
     /// </summary>
     public partial class Page2 : Window
     {
+        SqlConnection connection = new SqlConnection();
+
         public Page2()
         {
             InitializeComponent();
+            connection.ConnectionString = "Server=cis1.actx.edu;Database=project1;user id=db1;Password=db10;";
+            connection.Open();
         }
 
         private void TextBox1_TextChanged(object sender, TextChangedEventArgs e)
@@ -63,6 +70,7 @@ namespace CareAmarillo
             //show a message box to conferm the regestration
             else
             {
+                AddHumanService();
                 MessageBox.Show("You have registered successfully. \n Please press ok then log in.");
                 //take back to the main page to log in
                 this.Hide();
@@ -84,6 +92,24 @@ namespace CareAmarillo
             this.Hide();
             UpdateInfo update = new UpdateInfo();
             update.Show();
+        }
+
+        private void AddHumanService()
+        {
+            using (SqlCommand insertNewProvider = connection.CreateCommand())
+            {
+                insertNewProvider.CommandText = "insert into Person values (@ID, @FirstName, @LastName, @Email, @UserID);";
+                insertNewProvider.Parameters.Add(new SqlParameter("ID", "User1"));
+                insertNewProvider.Parameters.Add(new SqlParameter("FirstName", txtBFNameP2.Text));
+                insertNewProvider.Parameters.Add(new SqlParameter("LastName", txtBLNameP2.Text));
+                insertNewProvider.Parameters.Add(new SqlParameter("Email", txtBEmailP2.Text));
+                insertNewProvider.Parameters.Add(new SqlParameter("UserID", txtBUserIDP2.Text));
+                insertNewProvider.Parameters.Add(new SqlParameter("TypeID", "User2"));
+                //insertNewProvider.Parameters.Add(new SqlParameter("Phone", txtPhone.Text));
+                //insertNewProvider.Parameters.Add(new SqlParameter("Email", txtEmail.Text));
+                //insertNewProvider.Parameters.Add(new SqlParameter("Password", txtEmail.Text));
+                insertNewProvider.ExecuteNonQuery();
+            }
         }
     }
 }
