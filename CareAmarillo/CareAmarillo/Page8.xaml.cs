@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,5 +30,18 @@ namespace CareAmarillo
         {
 
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            //this.Hide();
+            //MainWindow MainWindow = new MainWindow();
+            //MainWindow.Show();
+        }
+
     }
 }
