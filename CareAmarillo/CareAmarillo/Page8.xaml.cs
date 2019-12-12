@@ -19,7 +19,7 @@ namespace CareAmarillo
     /// <summary>
     /// Interaction logic for Page8.xaml
     /// </summary>
-    public partial class Page8 : Page
+    public partial class Page8 : Window
     {
         public Page8()
         {
@@ -33,6 +33,11 @@ namespace CareAmarillo
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            this.Hide();
+            MainWindow MainWindow = new MainWindow();
+            MainWindow.Show();
+
+            InitializeComponent();
 
         }
 

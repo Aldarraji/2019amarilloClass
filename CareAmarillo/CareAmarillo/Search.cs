@@ -21,6 +21,43 @@ namespace CareAmarillo
             }
         }
 
+
+        public string FindFirstName(String firstName)
+        {
+            string rec = "";
+            using (SqlCommand FindFirstNameRecord = connection.CreateCommand())
+            {
+                FindFirstNameRecord.CommandText = "select FirstName from Person where FirstName like @firstName;";
+
+
+                FindFirstNameRecord.Parameters.Add(new SqlParameter("firstName", "%" + firstName + "%"));
+
+                // The using block for handling the IO
+                using (SqlDataReader reader = FindFirstNameRecord.ExecuteReader())
+                {
+                    // a dictionary to store the ordinal positions of each column in the table.
+                    Dictionary<string, int> columnNames = new Dictionary<string, int>();
+
+                    // Actually building the above dictionary. This should be done outside of any data-read loop for 
+                    // performance reasons.
+                    var columns = Enumerable.Range(0, reader.FieldCount).Select(reader.GetName).ToList();
+                    foreach (var columnName in columns)
+                    {
+                        columnNames.Add(columnName, reader.GetOrdinal(columnName.ToString()));
+                    }
+
+                    // Get the data you want from the SQL Select and do whatever you want with it.
+                    while (reader.Read())
+                    {
+                        rec += reader.GetFieldValue<string>(columnNames["FirstName"]);
+                    }
+                }
+            }
+            return rec;
+
+        }
+
+
         public String FindAShelter(String shelterName)
         {
             string rec = "";

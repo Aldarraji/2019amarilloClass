@@ -9,13 +9,13 @@
     <Grid>
         <Image HorizontalAlignment="Left" Height="170" VerticalAlignment="Top" Width="171" Source="Capture.JPG"/>
         <Button x:Name="button" Content="Back To Main" HorizontalAlignment="Left" Margin="341,688,0,0" VerticalAlignment="Top" Width="104" Height="44" FontSize="14" Background="#FF00C5FF" Foreground="White" Click="Button_Click" FontWeight="Bold" />
-        <TextBox Height="44" HorizontalAlignment="Left" Margin="398,158,0,0"
+        <TextBox Height="44" HorizontalAlignment="Left" Margin="248,167,0,0"
             Name="txtNameToSearch" TextChanged="txtNameToSearch_TextChanged"
-        VerticalAlignment="Top" Width="252" Text="Search Shelter Name . . ." FontSize="18" />
+        VerticalAlignment="Top" Width="315" Text="Search Shelter Name . . ." FontSize="18" />
         <TextBlock HorizontalAlignment="Left" Margin="171,49,0,0" TextWrapping="Wrap" Text="CareAmarillo" VerticalAlignment="Top" FontSize="36"/>
-        <Button x:Name="btnSearchShelter" Content="Search" HorizontalAlignment="Left" Margin="678,158,0,0" VerticalAlignment="Top" Width="104" Height="44" Background="#FF75BC03" FontSize="18" FontWeight="Bold" Click="Button_Click_1" />
-        <Button x:Name="btnClearAll" Content="Clear" HorizontalAlignment="Left" Margin="678,227,0,0" VerticalAlignment="Top" Width="104" Height="44" Background="#FF75BC03" FontSize="18" FontWeight="Bold" Click="Button_Click_2" />
-        <Label x:Name="lblResult" HorizontalAlignment="Left" Margin="398,227,0,0" VerticalAlignment="Top" Height="314" Width="252"/>
+        <Button x:Name="btnSearchShelter" Content="Search" HorizontalAlignment="Left" Margin="615,167,0,0" VerticalAlignment="Top" Width="104" Height="44" Background="#FF75BC03" FontSize="18" FontWeight="Bold" Click="Button_Click_1" />
+        <Button x:Name="btnClearAll" Content="Clear" HorizontalAlignment="Left" Margin="615,247,0,0" VerticalAlignment="Top" Width="104" Height="44" Background="#FF75BC03" FontSize="18" FontWeight="Bold" Click="Button_Click_2" />
+        <Label x:Name="lblResult" HorizontalAlignment="Left" Margin="248,247,0,0" VerticalAlignment="Top" Height="314" Width="315"/>
         <Label x:Name="lblWelcomeText" Content="Welcome back, " Margin="493,10,139,711" VerticalContentAlignment="Center" FontSize="18" FontWeight="Bold"/>
         <Label x:Name="lblWelcomeText_Copy" Content="First Name" VerticalContentAlignment="Center" FontSize="18" FontWeight="Bold" Margin="637,10,-5,711"/>
     </Grid>
