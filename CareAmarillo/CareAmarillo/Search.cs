@@ -46,13 +46,13 @@ namespace CareAmarillo
                     // Get the data you want from the SQL Select and do whatever you want with it.
                     while (reader.Read())
                     {
-                        rec += reader.GetFieldValue<string>(columnNames["Name"]) + " ";
-                        rec += reader.GetFieldValue<string>(columnNames["Phone"]) + " ";
+                        rec += reader.GetFieldValue<string>(columnNames["Name"]) + " \n";
+                        rec += reader.GetFieldValue<string>(columnNames["Phone"]) + " \n";
                         rec += reader.GetFieldValue<string>(columnNames["Email"]) + " \n";
                         rec += reader.GetFieldValue<int>(columnNames["BedVacancy"]) + " \n";
-                        rec += reader.GetFieldValue<string>(columnNames["Address"]) + " ";
-                        rec += reader.GetFieldValue<string>(columnNames["City"]) + " ";
-                        rec += reader.GetFieldValue<int>(columnNames["ZipCode"]) + " ";
+                        rec += reader.GetFieldValue<string>(columnNames["Address"]) + " \n";
+                        rec += reader.GetFieldValue<string>(columnNames["City"]) + " \n";
+                        rec += reader.GetFieldValue<int>(columnNames["ZipCode"]) + " \n";
                         rec += reader.GetFieldValue<string>(columnNames["State"]) + " \n";
                         rec += "\n";
                     }

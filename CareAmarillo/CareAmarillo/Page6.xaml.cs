@@ -22,28 +22,32 @@ namespace CareAmarillo
     /// </summary>
     public partial class Page6 : Window
     {
+        private Search shelterSearch;
         public Page6()
         {
             InitializeComponent();
             txtSearch.Foreground = new SolidColorBrush(Color.FromRgb(112, 128, 144));
 
-            //SqlConnection connection = new SqlConnection();
-            //connection.ConnectionString = "Server=cis1.actx.edu;Database=project1;Login=db1;Password=db10;";
-            //connection.Open();
+            shelterSearch = new Search();
+
         }
 
 
         private void BtnSearch_Click(object sender, RoutedEventArgs e)
         {
-            var searchInput = txtSearch.Text;
+            // take string input from search box
+            var userinput = shelterSearch.FindAShelter(txtSearch.Text);
 
-            if (txtSearch.Text == "Search available resources..")
+            if (userinput == "Search available resources..")
             {
                 MessageBox.Show("Type in values to search!");
             }
             else
             {
-                lstResult.Items.Add(searchInput);
+
+
+                // pass it into list box
+                lstResult.Items.Add(userinput);
             }
         }
 
@@ -55,6 +59,10 @@ namespace CareAmarillo
                 txtSearch.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0));
 
             }
+
+
+
+
         }
 
         private void TxtSearch_MouseLeave(object sender, MouseEventArgs e)
