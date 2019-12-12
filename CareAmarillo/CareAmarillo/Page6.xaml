@@ -15,7 +15,7 @@
             </Label.ToolTip>
         </Label>
         <Image x:Name="imgLogo" Margin="250,58,282,535" Source="Capture.JPG"/>
-        <Label x:Name="lblWelcomeText" Content="Welcome back, " Margin="493,10,139,711" VerticalContentAlignment="Center" FontSize="18" FontWeight="Bold"/>
+        <Label x:Name="lblWelcomeText" Content="Welcome back, " Margin="319,11,313,710" VerticalContentAlignment="Center" FontSize="18" FontWeight="Bold"/>
         <Label Content="CareAmarillo" Margin="250,213,291,493" FontSize="36" HorizontalContentAlignment="Center"/>
         <TextBox x:Name="txtSearch" Margin="74,298,235,422" TextWrapping="Wrap" Text="Search available resources.." FontSize="18" VerticalContentAlignment="Center" MouseEnter="TxtSearch_MouseEnter" MouseLeave="TxtSearch_MouseLeave"/>
         <Button x:Name="btnSearch" Cursor="Hand" Content="Search" Margin="598,298,66,422" Background="#FF75BC03" Click="BtnSearch_Click" FontSize="18" FontWeight="Bold"/>
@@ -28,7 +28,7 @@
                 </ToolTip>
             </Label.ToolTip>
         </Label>
-        <Label x:Name="lblWelcomeText_Copy" Content="First Name" VerticalContentAlignment="Center" FontSize="18" FontWeight="Bold" Margin="637,10,-5,711"/>
+        <Label x:Name="lblFirstName" Content="First Name" VerticalContentAlignment="Center" FontSize="18" FontWeight="Bold" Margin="510,10,28,711"/>
 
     </Grid>
 </Window>
