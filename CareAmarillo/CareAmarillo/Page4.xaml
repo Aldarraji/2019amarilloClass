@@ -16,5 +16,7 @@
         <Button x:Name="btnSearchShelter" Content="Search" HorizontalAlignment="Left" Margin="678,158,0,0" VerticalAlignment="Top" Width="104" Height="44" Background="#FF75BC03" FontSize="18" FontWeight="Bold" Click="Button_Click_1" />
         <Button x:Name="btnClearAll" Content="Clear" HorizontalAlignment="Left" Margin="678,227,0,0" VerticalAlignment="Top" Width="104" Height="44" Background="#FF75BC03" FontSize="18" FontWeight="Bold" Click="Button_Click_2" />
         <Label x:Name="lblResult" HorizontalAlignment="Left" Margin="398,227,0,0" VerticalAlignment="Top" Height="314" Width="252"/>
+        <Label x:Name="lblWelcomeText" Content="Welcome back, " Margin="493,10,139,711" VerticalContentAlignment="Center" FontSize="18" FontWeight="Bold"/>
+        <Label x:Name="lblWelcomeText_Copy" Content="First Name" VerticalContentAlignment="Center" FontSize="18" FontWeight="Bold" Margin="637,10,-5,711"/>
     </Grid>
 </Window>
