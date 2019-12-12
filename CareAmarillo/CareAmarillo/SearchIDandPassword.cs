@@ -18,17 +18,14 @@ namespace CareAmarillo
             connection.Open();
         }
 
-        public String FindUser(String id, String password )
+        public int FindUser(String id, String password )
         {
-            string retunedPassNdID ="";
+            int retunedPassNdID = 0;
             using (SqlCommand FindAIDRecord = connection.CreateCommand())
             {
-                FindAIDRecord.CommandText = "select * from Person where Name like @UserID;";
-                FindAIDRecord.Parameters.Add(new SqlParameter("UserID", "%" + id + "%"));
-
-                SqlCommand FindPassRecord = connection.CreateCommand();
-                FindPassRecord.CommandText = "select * from Human where Name like @Password;";
-                FindPassRecord.Parameters.Add(new SqlParameter("Password", "%" + password + "%"));
+                FindAIDRecord.CommandText = "select UserType.ID from LogOn inner join person on LogOn.ID = Person.UserID inner join UserType on Person.TypeID = UserType.ID where LogOn.ID = @ID and Password = @Password";
+                FindAIDRecord.Parameters.Add(new SqlParameter("ID", id));
+                FindAIDRecord.Parameters.Add(new SqlParameter("Password", password));
 
                 // The using block for handling the IO
                 using (SqlDataReader reader = FindAIDRecord.ExecuteReader())
@@ -47,8 +44,7 @@ namespace CareAmarillo
                     // Get the data you want from the SQL Select and do whatever you want with it.
                     while (reader.Read())
                     {
-                        retunedPassNdID += reader.GetFieldValue<string>(columnNames["ID"]);
-
+                        retunedPassNdID = reader.GetFieldValue<int>(columnNames["ID"]);
                     }
                 }
             }
