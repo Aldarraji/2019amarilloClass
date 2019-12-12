@@ -30,6 +30,12 @@ namespace CareAmarillo
 
             shelterSearch = new Search();
 
+
+            MainWindow mw = new MainWindow();
+
+            var firstName = shelterSearch.FindFirstName(mw.txtUserID.Text);
+            lblFirstName.Content = firstName;
+
         }
 
 
