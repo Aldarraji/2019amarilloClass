@@ -14,8 +14,11 @@ namespace CareAmarillo
         static SqlConnection connection = new SqlConnection();
         public Search()
         {
-            connection.ConnectionString = "Server=cis1.actx.edu;Database=project1;User Id=db1;Password=db10;";
-            connection.Open();
+            if(connection.State == System.Data.ConnectionState.Closed)
+            {
+                connection.ConnectionString = "Server=cis1.actx.edu;Database=project1;User Id=db1;Password=db10;";
+                connection.Open();
+            }
         }
 
         public String FindAShelter(String shelterName)
