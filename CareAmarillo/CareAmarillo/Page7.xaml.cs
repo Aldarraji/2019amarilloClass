@@ -26,16 +26,16 @@ namespace CareAmarillo
             policeSearch = new Search();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void BtnSubmit_Click(object sender, RoutedEventArgs e)
+        {
+            lblOutput.Content = policeSearch.FindAShelter(txtSearch.Text);
+        }
+
+        private void BtnLogOut_Click(object sender, RoutedEventArgs e)
         {
             this.Hide();
             MainWindow MainWindow = new MainWindow();
             MainWindow.Show();
-        }
-
-        private void TxtSearch_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
         }
     }
 }
