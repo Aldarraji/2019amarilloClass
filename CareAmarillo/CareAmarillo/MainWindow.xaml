@@ -15,7 +15,7 @@
         <TextBox x:Name="txtUserID" HorizontalAlignment="Left" Height="38" Margin="382,442,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197" FontSize="20" TextChanged="TextBox1_TextChanged"/>
         <Label x:Name="lblCA" Content="CareAmarillo" HorizontalAlignment="Left" Margin="253,224,0,0" VerticalAlignment="Top" FontSize="45" Height="70" Width="265"/>
         <Label x:Name="lblwel" Content="Welcome! pleace sign in or register." HorizontalAlignment="Left" Margin="217,299,0,0" VerticalAlignment="Top" FontSize="22" Height="39" Width="356"/>
-        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Height="38" Margin="382,501,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197" FontSize="20" TextChanged="TextBox1_TextChanged"/>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Height="38" Margin="382,501,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197" FontSize="20" TextChanged="TextBox1_TextChanged" FontFamily="/CareAmarillo;component/Properties/#Password" />
         <Label x:Name="lblUser" Content="UserID" HorizontalAlignment="Left" Margin="227,442,0,0" VerticalAlignment="Top" FontSize="20" Height="37" Width="69"/>
         <Label x:Name="lblPassword" Content="Password" HorizontalAlignment="Left" Margin="227,501,0,0" VerticalAlignment="Top" FontSize="20" Height="37" Width="93"/>
         <Button x:Name="btnLogin" Content="Login" HorizontalAlignment="Left" Margin="320,592,0,0" VerticalAlignment="Top" Width="113" BorderBrush="#FF00C5FF" Background="White" Height="39" FontSize="14" Foreground="#FF00C5FF" Click="BtnLogin_Click"/>
