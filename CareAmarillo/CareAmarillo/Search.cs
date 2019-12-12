@@ -46,14 +46,15 @@ namespace CareAmarillo
                     // Get the data you want from the SQL Select and do whatever you want with it.
                     while (reader.Read())
                     {
-                        rec += "Name: " + reader.GetFieldValue<string>(columnNames["Name"]) + " \n";
-                        rec += "Phone: " + reader.GetFieldValue<string>(columnNames["Phone"]) + " \n";
-                        rec += "Email: " + reader.GetFieldValue<string>(columnNames["Email"]) + " \n";
-                        rec += "Vacancy: " + reader.GetFieldValue<int>(columnNames["BedVacancy"]) + " \n";
-                        rec += "Address: " + reader.GetFieldValue<string>(columnNames["Address"]) + " \n";
-                        rec += "City: " + reader.GetFieldValue<string>(columnNames["City"]) + " \n";
-                        rec += "Zipcode: " + reader.GetFieldValue<int>(columnNames["ZipCode"]) + " \n";
-                        rec += "State: " + reader.GetFieldValue<string>(columnNames["State"]) + " \n";
+                        rec += "Name:       " + reader.GetFieldValue<string>(columnNames["Name"]) + " \n";
+                        rec += "Phone:      " + reader.GetFieldValue<string>(columnNames["Phone"]) + " \n";
+                        rec += "Email:        " + reader.GetFieldValue<string>(columnNames["Email"]) + " \n";
+                        rec += "Vacancy:   " + reader.GetFieldValue<int>(columnNames["BedVacancy"]) + " \n";
+                        rec += "Address:   " + reader.GetFieldValue<string>(columnNames["Address"]) + " \n";
+                        rec += "City:          "  + reader.GetFieldValue<string>(columnNames["City"]) + " \n";
+                        rec += "Zipcode:   " + reader.GetFieldValue<int>(columnNames["ZipCode"]) + " \n";
+                        rec += "State:        "   + reader.GetFieldValue<string>(columnNames["State"]) + " \n";
+                        rec += " \n";
                     }
                 }
             }
