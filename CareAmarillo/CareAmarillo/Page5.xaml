@@ -6,8 +6,21 @@
         xmlns:local="clr-namespace:CareAmarillo"
         mc:Ignorable="d"
         Title="Page5" Height="800" Width="800">
-    <Grid>
-		<Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="125,610,0,0" VerticalAlignment="Top" Width="120" Height="62"/>
-
+	<Grid Margin="0,0,-8,0">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="13*"/>
+			<ColumnDefinition Width="187*"/>
+		</Grid.ColumnDefinitions>
+		<Label x:Name="lblName" Content="Name:" HorizontalAlignment="Left" Margin="12,48,0,0" VerticalAlignment="Top" Height="66" Width="120" FontSize="36" Grid.ColumnSpan="2"/>
+		<Label x:Name="lblDescription" Content="Description:" HorizontalAlignment="Left" Height="56" Margin="12,138,0,0" VerticalAlignment="Top" Width="228" FontSize="36" Grid.ColumnSpan="2"/>
+		<Label x:Name="lblStakeholder" Content="Stakeholder:" HorizontalAlignment="Left" Margin="10,255,0,0" VerticalAlignment="Top" Height="74" Width="228" FontSize="36" Grid.ColumnSpan="2"/>
+		<Label x:Name="lblSearch" Content="Search" HorizontalAlignment="Left" Margin="22,431,0,0" VerticalAlignment="Top" FontSize="36" Height="61" Width="140" RenderTransformOrigin="0.329,0.492" Grid.ColumnSpan="2"/>
+		<Label x:Name="lblHSP" Content="Human Service Provider" HorizontalAlignment="Left" Margin="80,63,0,0" VerticalAlignment="Top" Height="42" Width="244" FontSize="22" Grid.Column="1"/>
+		<Label x:Name="lblJobDescript" Content="Organization that offer supports to human service users." HorizontalAlignment="Left" Margin="162,153,0,0" VerticalAlignment="Top" Height="41" Width="554" FontSize="22" Grid.Column="1"/>
+		<Label x:Name="lblJobDescript2" Content="May also be an emergency shelter provider." HorizontalAlignment="Left" Margin="12,194,0,0" VerticalAlignment="Top" Width="454" FontSize="22" Grid.ColumnSpan="2"/>
+		<Label x:Name="lblrepresent" Content="represented by Continuum Care" HorizontalAlignment="Left" Margin="162,270,0,0" VerticalAlignment="Top" FontSize="22" Grid.Column="1"/>
+		<Label x:Name="lblSearchSentence" Content="Any user of CareAmarillo shall be able to search for human service or" HorizontalAlignment="Left" Margin="22,497,0,0" VerticalAlignment="Top" Width="768" FontSize="22" RenderTransformOrigin="0.536,0.308" Grid.ColumnSpan="2"/>
+		<Label x:Name="lblSearchSentence2" Content="emergency shelter providers and their contact information and location." HorizontalAlignment="Left" Margin="22,541,0,0" VerticalAlignment="Top" Width="720" FontSize="22" Grid.ColumnSpan="2"/>
+		<Label x:Name="lblSearchSentence3" Content="Police will be the target demographic for this use." HorizontalAlignment="Left" Margin="22,585,0,0" VerticalAlignment="Top" Width="500" FontSize="22" Grid.ColumnSpan="2"/>
 	</Grid>
 </Window>
