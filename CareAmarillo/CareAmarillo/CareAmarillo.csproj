@@ -60,6 +60,7 @@
       <DependentUpon>Page8.xaml</DependentUpon>
     </Compile>
     <Compile Include="Search.cs" />
+    <Compile Include="SearchIDandPassword.cs" />
     <Compile Include="txtUserIDP9.cs" />
     <Compile Include="UpdateInfo.xaml.cs">
       <DependentUpon>UpdateInfo.xaml</DependentUpon>

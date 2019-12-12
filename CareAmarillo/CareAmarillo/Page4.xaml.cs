@@ -20,12 +20,17 @@ namespace CareAmarillo
     /// </summary>
     public partial class Page4 : Window
     {
+
+        private Search mysearch;
+
         public Page4()
         {
             InitializeComponent();
-            SqlConnection connection = new SqlConnection();
-            connection.ConnectionString = "Server=cis1.actx.edu;Database=project1;user id=db1;Password=db10;";
-            connection.Open();
+            //SqlConnection connection = new SqlConnection();
+            //connection.ConnectionString = "Server=cis1.actx.edu;Database=project1;user id=db1;Password=db10;";
+            //connection.Open();
+            mysearch = new Search();
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -33,6 +38,9 @@ namespace CareAmarillo
             this.Hide();
             MainWindow MainWindow = new MainWindow();
             MainWindow.Show();
+
+            InitializeComponent();
+
         }
 
         private void txtNameToSearch_TextChanged(object sender, TextChangedEventArgs e)
@@ -42,7 +50,10 @@ namespace CareAmarillo
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-
+            // string s = txtNameToSearch.Text;
+            var userInput = txtNameToSearch.Text;
+            var databaseinfo = mysearch.FindAShelter(userInput);
+            lblResult.Content = databaseinfo;
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)

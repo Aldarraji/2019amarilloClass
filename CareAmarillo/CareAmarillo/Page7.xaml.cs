@@ -30,5 +30,10 @@ namespace CareAmarillo
         {
             lblShelters.Content = policeSearch.FindAShelter(txtSearch.Text);
         }
+
+        private void TxtSearch_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

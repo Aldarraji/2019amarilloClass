@@ -23,12 +23,12 @@ namespace CareAmarillo
     {
         public object NavigationService { get; private set; }
         public object NavigationFrame { get; private set; }
-
+        private SearchIDandPassword userSearch;
         public MainWindow()
         {
             InitializeComponent();
 
-
+            userSearch = new SearchIDandPassword();
             SqlConnection connection = new SqlConnection();
             connection.ConnectionString = "Server=cis1.actx.edu;Database=project1;user id=db1;Password=db10;";
             try
@@ -97,9 +97,42 @@ namespace CareAmarillo
             }
 
             //if the userID and password did not match what we have in database
-
+            var inputUserIDandPass = userSearch.FindUser(txtUserID.Text, txtPassword.Text);
+            if (inputUserIDandPass == "")
+            {
+                MessageBox.Show("Wrong username or password!!!");
+            }
 
             //else direct them to the correct User Page
+            else
+            {
+                var idOnly = inputUserIDandPass.Substring(0, 1);   //what type of user
+
+                if (idOnly == "1")
+                {
+                    //take to user1 home page and give them the ID
+
+
+                }
+                else if (idOnly == "2")
+                {
+                    //take to user2 home page and give them the ID
+                }
+                else if (idOnly == "3")
+                {
+                    //take to user3 home page and give them the ID
+                }
+                else if (idOnly == "4")
+                {
+                    //take to user4 home page and give them the ID
+                }
+                else if (idOnly == "5")
+                {
+                    //take to user5 home page and give them the ID
+                }
+
+
+            }
         }
     }
 }
