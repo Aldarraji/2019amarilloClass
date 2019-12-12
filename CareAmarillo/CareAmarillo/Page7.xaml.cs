@@ -28,7 +28,9 @@ namespace CareAmarillo
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            lblShelters.Content = policeSearch.FindAShelter(txtSearch.Text);
+            this.Hide();
+            MainWindow MainWindow = new MainWindow();
+            MainWindow.Show();
         }
 
         private void TxtSearch_TextChanged(object sender, TextChangedEventArgs e)
