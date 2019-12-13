@@ -137,9 +137,9 @@ namespace CareAmarillo
                 else if (inputUserIDandPass == 5)
                 {
                     //take to user5 home page and give them the ID
-                    //this.Hide();
-                    //Page8 page8 = new Page8();
-                    //page8.Show();
+                    this.Hide();
+                    Page8 page8 = new Page8();
+                    page8.Show();
                 }
             }
         }

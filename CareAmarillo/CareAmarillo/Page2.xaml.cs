@@ -98,13 +98,13 @@ namespace CareAmarillo
         {
             using (SqlCommand insertNewProvider = connection.CreateCommand())       //write a function for that
             {
-                insertNewProvider.CommandText = "insert into Person values (@ID, @FirstName, @LastName, @Email, @UserID);";
+                insertNewProvider.CommandText = "insert into Person values (@ID, @FirstName, @LastName, @Email, @TypeID, @UserID, @ShelterID, @Password);";
                 insertNewProvider.Parameters.Add(new SqlParameter("FirstName", txtBFNameP2.Text));
                 insertNewProvider.Parameters.Add(new SqlParameter("LastName", txtBLNameP2.Text));
                 insertNewProvider.Parameters.Add(new SqlParameter("Email", txtBEmailP2.Text));
                 insertNewProvider.Parameters.Add(new SqlParameter("TypeID", 6));
                 insertNewProvider.Parameters.Add(new SqlParameter("UserID", txtBUserIDP2.Text));
-                insertNewProvider.Parameters.Add(new SqlParameter("SHelterID", null));
+                insertNewProvider.Parameters.Add(new SqlParameter("ShelterID", null));
                 insertNewProvider.Parameters.Add(new SqlParameter("Password", txtBPasswordP2.Text));
                 insertNewProvider.ExecuteNonQuery();
             }
