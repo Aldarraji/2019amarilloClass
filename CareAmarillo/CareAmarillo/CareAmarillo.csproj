@@ -56,10 +56,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Add.cs" />
     <Compile Include="Page8.xaml.cs">
       <DependentUpon>Page8.xaml</DependentUpon>
     </Compile>
     <Compile Include="Search.cs" />
+    <Compile Include="Update.cs" />
     <Compile Include="UpdateInfo.xaml.cs">
       <DependentUpon>UpdateInfo.xaml</DependentUpon>
     </Compile>
