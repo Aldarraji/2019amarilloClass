@@ -22,12 +22,11 @@ namespace CareAmarillo
     /// </summary>
     public partial class Page3 : Window
     {
-        SqlConnection connection = new SqlConnection();
+        private Add addProvider;
         public Page3()
         {
             InitializeComponent();
-            connection.ConnectionString = "Server=cis1.actx.edu;Database=project1;user id=db1;Password=db10;";
-            connection.Open();
+            addProvider = new Add();
 
         }
 
@@ -41,7 +40,7 @@ namespace CareAmarillo
             else
             {
                 //var zipcode = Int32.Parse(txtZipCode.Text);
-                AddProvider();
+                addProvider.AddProvider(txtPName.Text, txtAddress.Text, txtZipCode.Text, txtCity.Text, txtState.Text, txtPhone.Text, txtEmail.Text, txtBed.Text);
                 MessageBox.Show("You have registered successfully. \n Please press ok then log in.");
                 this.Hide();
                 MainWindow MainWindow = new MainWindow();
@@ -63,23 +62,6 @@ namespace CareAmarillo
             this.Hide();
             UpdateInfo update = new UpdateInfo();
             update.Show();
-        }
-
-        private void AddProvider()
-        {
-            using (SqlCommand insertNewProvider = connection.CreateCommand())
-            {
-                insertNewProvider.CommandText = "insert into Shelter values (@Name, @Address, @ZipCode, @City, @State, @Phone, @Email, @BedVacancy);";
-                insertNewProvider.Parameters.Add(new SqlParameter("Name", txtPName.Text));
-                insertNewProvider.Parameters.Add(new SqlParameter("Address", txtAddress.Text));
-                insertNewProvider.Parameters.Add(new SqlParameter("ZipCode", txtZipCode.Text));
-                insertNewProvider.Parameters.Add(new SqlParameter("City", txtCity.Text));
-                insertNewProvider.Parameters.Add(new SqlParameter("State", txtState.Text));
-                insertNewProvider.Parameters.Add(new SqlParameter("Phone", txtPhone.Text));
-                insertNewProvider.Parameters.Add(new SqlParameter("Email", txtEmail.Text));
-                insertNewProvider.Parameters.Add(new SqlParameter("BedVacancy", txtBed.Text));
-                insertNewProvider.ExecuteNonQuery();
-            }
         }
     }
 }
