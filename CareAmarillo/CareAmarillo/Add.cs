@@ -25,7 +25,14 @@ namespace CareAmarillo
         {
             using (SqlCommand insertNewProvider = connection.CreateCommand())
             {
-                insertNewProvider.CommandText = "insert into Person values (@ID, @FirstName, @LastName, @Email, @TypeID, @UserID, @ShelterID, @Password);";
+                insertNewProvider.CommandText = "insert into LogOn values (@ID, @Password);";
+                insertNewProvider.Parameters.Add(new SqlParameter("ID", userID));
+                insertNewProvider.Parameters.Add(new SqlParameter("Password", password));
+                insertNewProvider.ExecuteNonQuery();
+            }
+            using (SqlCommand insertNewProvider = connection.CreateCommand())
+            {
+                insertNewProvider.CommandText = "insert into Person values (@UserID, @FirstName, @LastName, @Email, @TypeID, @UserID, @ShelterID, @Password);";
                 insertNewProvider.Parameters.Add(new SqlParameter("FirstName", fName));
                 insertNewProvider.Parameters.Add(new SqlParameter("LastName", lName));
                 insertNewProvider.Parameters.Add(new SqlParameter("Email", email));

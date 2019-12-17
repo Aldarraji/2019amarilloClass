@@ -44,14 +44,14 @@ namespace CareAmarillo
         {
             using (SqlCommand deleteUser = connection.CreateCommand())
             {
-                deleteUser.CommandText = "delete from Person where UserID = @userID;";
-                deleteUser.Parameters.Add(new SqlParameter("userID", userID));
+                deleteUser.CommandText = "delete from LogOn where ID = @ID;";
+                deleteUser.Parameters.Add(new SqlParameter("ID", userID));
                 deleteUser.ExecuteNonQuery();
             }
             using (SqlCommand deleteUser = connection.CreateCommand())
             {
-                deleteUser.CommandText = "delete from LogOn where ID = @ID;";
-                deleteUser.Parameters.Add(new SqlParameter("ID", userID));
+                deleteUser.CommandText = "delete from Person where UserID = @userID;";
+                deleteUser.Parameters.Add(new SqlParameter("userID", userID));
                 deleteUser.ExecuteNonQuery();
             }
         }
