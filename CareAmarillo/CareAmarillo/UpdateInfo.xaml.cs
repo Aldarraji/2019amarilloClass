@@ -34,12 +34,21 @@ namespace CareAmarillo
             {
                 var userID = txtUserID.Text;
                 var password = txtPassword.Text;
-                login.FindUser(userID, password);
-                MessageBox.Show("Successfully login! \n Please fill out Password, First name, Email then click update. ");
+                var valaidateLogin = login.FindUser(userID, password);
+
+
+                if (valaidateLogin == 1 || valaidateLogin == 2 || valaidateLogin == 3 || valaidateLogin == 4 || valaidateLogin == 5)
+                {
+                    MessageBox.Show("Successfully login! \n Please fill out Password, First name, Email then click update. ");
+                }
+                else
+                {
+                    MessageBox.Show("Cannot login, Wrong infomation!");
+                }
             }
             catch
             {
-                MessageBox.Show("Cannot login!");
+                MessageBox.Show("Connection time out, something went wront!");
             }
         }
 
@@ -50,8 +59,15 @@ namespace CareAmarillo
             var firstName = txtUserFirstName.Text;
             var lastName = txtUserLastName.Text;
             var email = txtUserEmail.Text;
-            //var phoneNumber = txtUserPhoneNumber.Text;
-            //updateInfo.UpdateAUser(userID, password, firstName, lastName, email);
+
+            if (userID == "" || password == "" || firstName == "" || lastName == "" || email == "")
+            {
+                MessageBox.Show("Please provide all field!");
+            }
+            else
+            {
+                updateInfo.UpdateAUser(userID, password, firstName, lastName, email);
+            }
         }
     }
 }
