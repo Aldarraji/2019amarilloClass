@@ -21,7 +21,7 @@ namespace CareAmarillo
             }
         }
 
-        private void AddHumanService(string fName, string lName, string email, string userID, string password)
+        public void AddHumanService(string fName, string lName, string email, string userID, string password)
         {
             using (SqlCommand insertNewProvider = connection.CreateCommand())
             {
@@ -43,7 +43,7 @@ namespace CareAmarillo
             }
         }
 
-        private void AddProvider(string name, string address, string zipCode, string city, string state, string phone, string email, string bedVacancy)
+        public void AddProvider(string name, string address, string zipCode, string city, string state, string phone, string email, string bedVacancy)
         {
             using (SqlCommand insertNewProvider = connection.CreateCommand())
             {
