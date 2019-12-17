@@ -9,10 +9,10 @@
     <Grid>
         <TextBox Name="txtSearch" HorizontalAlignment="Left" Height="33" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="516" Margin="158,10,0,0" FontSize="18"/>
         <Label Content="Search Shelters" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="18" Width="143" Height="33"/>
-        <Button x:Name="btnSubmit" Content="Search!" HorizontalAlignment="Left" Margin="679,10,0,0" VerticalAlignment="Top" Width="103" Height="33" FontSize="18" FontWeight="Bold" Background="#FF75BC03" Click="BtnSubmit_Click"/>
+        <Button x:Name="btnSubmit" Content="Search!" HorizontalAlignment="Left" Margin="679,10,0,0" VerticalAlignment="Top" Width="103" Height="33" FontSize="18" Background="#FF75BC03" Click="BtnSubmit_Click"/>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="661" Margin="10,48,0,0" VerticalAlignment="Top" Width="772">
             <Label x:Name="lblOutput" Content=""/>
         </Border>
-        <Button x:Name="btnLogOut" Content="Log Out" HorizontalAlignment="Left" Margin="364,714,0,0" VerticalAlignment="Top" Width="100" FontSize="18" FontWeight="Bold" Background="#FF75BC03" Height="45" Click="BtnLogOut_Click"/>
+        <Button x:Name="btnLogOut" Content="Log Out" HorizontalAlignment="Left" Margin="364,714,0,0" VerticalAlignment="Top" Width="100" FontSize="18" Background="#FF75BC03" Height="45" Click="BtnLogOut_Click"/>
     </Grid>
 </Window>
