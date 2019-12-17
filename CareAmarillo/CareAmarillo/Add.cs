@@ -21,29 +21,30 @@ namespace CareAmarillo
             }
         }
 
-        private void AddHumanService(string fName, string lName, string email, string userID, string password)
+        public void AddHumanService(string fName, string lName, string email, string userID, string password)
         {
             using (SqlCommand insertNewProvider = connection.CreateCommand())
             {
-                insertNewProvider.CommandText = "insert into LogOn values (@ID, @Password);";
+                insertNewProvider.CommandText = "insert into LogOn values (@ID, @Password, @SALT);";
                 insertNewProvider.Parameters.Add(new SqlParameter("ID", userID));
                 insertNewProvider.Parameters.Add(new SqlParameter("Password", password));
+                insertNewProvider.Parameters.Add(new SqlParameter("SALT", 45));
                 insertNewProvider.ExecuteNonQuery();
             }
             using (SqlCommand insertNewProvider = connection.CreateCommand())
             {
-                insertNewProvider.CommandText = "insert into Person values (@UserID, @FirstName, @LastName, @Email, @TypeID, @UserID, @ShelterID, @Password);";
+                insertNewProvider.CommandText = "insert into Person values (@FirstName, null, @LastName, @Email, @TypeID, @UserID, null);";
                 insertNewProvider.Parameters.Add(new SqlParameter("FirstName", fName));
+                //insertNewProvider.Parameters.Add(new SqlParameter("MiddleName", ""));
                 insertNewProvider.Parameters.Add(new SqlParameter("LastName", lName));
                 insertNewProvider.Parameters.Add(new SqlParameter("Email", email));
                 insertNewProvider.Parameters.Add(new SqlParameter("TypeID", 3));
                 insertNewProvider.Parameters.Add(new SqlParameter("UserID", userID));
-                insertNewProvider.Parameters.Add(new SqlParameter("Password", password));
                 insertNewProvider.ExecuteNonQuery();
             }
         }
 
-        private void AddProvider(string name, string address, string zipCode, string city, string state, string phone, string email, string bedVacancy)
+        public void AddProvider(string name, string address, string zipCode, string city, string state, string phone, string email, string bedVacancy)
         {
             using (SqlCommand insertNewProvider = connection.CreateCommand())
             {
