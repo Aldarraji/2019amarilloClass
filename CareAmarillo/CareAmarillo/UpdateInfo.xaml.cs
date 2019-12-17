@@ -51,7 +51,7 @@ namespace CareAmarillo
             var lastName = txtUserLastName.Text;
             var email = txtUserEmail.Text;
             //var phoneNumber = txtUserPhoneNumber.Text;
-            updateInfo.UpdateAUser(userID, password, firstName, lastName, email);
+            //updateInfo.UpdateAUser(userID, password, firstName, lastName, email);
         }
     }
 }

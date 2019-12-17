@@ -80,8 +80,8 @@ namespace CareAmarillo
         {
             //display change password and update info 
             this.Hide();
-            UpdateInfo update = new UpdateInfo();
-            update.Show();
+            Page8 page8 = new Page8();
+            page8.Show();
         }
 
         private void BtnLogin_Click(object sender, RoutedEventArgs e)

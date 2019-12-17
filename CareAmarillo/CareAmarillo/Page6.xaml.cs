@@ -33,8 +33,8 @@ namespace CareAmarillo
 
             MainWindow mw = new MainWindow();
 
-            var firstName = shelterSearch.FindFirstName(mw.txtUserID.Text);
-            lblFirstName.Content = firstName;
+            //var firstName = shelterSearch.FindFirstName(mw.txtUserID.Text);
+            //lblFirstName.Content = firstName;
 
         }
 
