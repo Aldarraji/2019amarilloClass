@@ -35,7 +35,7 @@ namespace CareAmarillo
                 var userID = txtUserID.Text;
                 var password = txtPassword.Text;
                 login.FindUser(userID, password);
-                MessageBox.Show("Successfully login!");
+                MessageBox.Show("Successfully login! \n Please fill out Password, First name, Email then click update. ");
             }
             catch
             {
