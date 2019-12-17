@@ -21,7 +21,7 @@ namespace CareAmarillo
             }
         }
 
-        static void UpdateAUser(string userID, string password, string fName, string lName, string email, string phone)
+        public void UpdateAUser(string userID, string password, string fName, string lName, string email, string phone)
         {
             using (SqlCommand updateProf = connection.CreateCommand())
             {
@@ -40,7 +40,7 @@ namespace CareAmarillo
             }
         }
 
-        static void DeleteAUser(string userID)
+        public void DeleteAUser(string userID)
         {
             using (SqlCommand deleteUser = connection.CreateCommand())
             {

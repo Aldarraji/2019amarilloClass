@@ -21,7 +21,6 @@ namespace CareAmarillo
             }
         }
 
-
         public string FindFirstName(String firstName)
         {
             string rec = "";
