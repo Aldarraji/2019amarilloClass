@@ -21,7 +21,7 @@ namespace CareAmarillo
             }
         }
 
-        public void UpdateAUser(string userID, string password, string fName, string lName, string email, string phone)
+        public void UpdateAUser(string userID, string password, string fName, string lName, string email)
         {
             using (SqlCommand updateProf = connection.CreateCommand())
             {
@@ -29,12 +29,10 @@ namespace CareAmarillo
                 updateProf.CommandText += "update Person set FirstName = @firstName where UserID = @userID ";
                 updateProf.CommandText += "update Person set LastName = @lastName where UserID = @userID ";
                 updateProf.CommandText += "update Person set Email = @email where UserID = @userID ";
-                updateProf.CommandText += "update Person set Phone = @phone where UserID = @userID;";
                 updateProf.Parameters.Add(new SqlParameter("Password", password));
                 updateProf.Parameters.Add(new SqlParameter("firstName", fName));
                 updateProf.Parameters.Add(new SqlParameter("lastName", lName));
                 updateProf.Parameters.Add(new SqlParameter("email", email));
-                updateProf.Parameters.Add(new SqlParameter("phone", phone));
                 updateProf.Parameters.Add(new SqlParameter("userID", userID));
                 updateProf.ExecuteNonQuery();
             }
