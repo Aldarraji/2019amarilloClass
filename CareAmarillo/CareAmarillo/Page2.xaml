@@ -12,22 +12,22 @@
         </Grid.ColumnDefinitions>
         <Image x:Name="image" HorizontalAlignment="Left" Height="216" Margin="265,2,0,0" VerticalAlignment="Top" Width="284" Source="Capture.JPG"/>
         <Label x:Name="lblCAp2" Content="CareAmarillo" HorizontalAlignment="Left" Margin="264,187,0,0" VerticalAlignment="Top" FontSize="45"/>
-        <Label x:Name="lblRegP2" Content="Register for human service." HorizontalAlignment="Left" Margin="292,257,0,0" VerticalAlignment="Top" FontSize="17"/>
-        <TextBox x:Name="txtBFNameP2" HorizontalAlignment="Left" Height="38" Margin="352,304,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198" FontSize="20" TextChanged="TextBox1_TextChanged"/>
-        <Label x:Name="lblFNameP2" Content="First Name" HorizontalAlignment="Left" Margin="198,304,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <Label x:Name="lblLNameP2" Content="Last Name" HorizontalAlignment="Left" Margin="198,362,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <TextBox x:Name="txtBEmailP2" HorizontalAlignment="Left" Height="38" Margin="352,422,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198" FontSize="20" TextChanged="TextBox1_TextChanged"/>
-        <Label x:Name="lblEP2" Content="Email" HorizontalAlignment="Left" Margin="198,422,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <TextBox x:Name="txtBPasswordP2" HorizontalAlignment="Left" Height="38" Margin="352,485,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198" FontSize="20" TextChanged="TextBox1_TextChanged"/>
-        <Label x:Name="lblPassP2" Content="Password" HorizontalAlignment="Left" Margin="198,485,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <TextBox x:Name="txtBUserIDP2" HorizontalAlignment="Left" Height="38" Margin="352,548,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198" FontSize="20" TextChanged="TextBox1_TextChanged"/>
-        <Label x:Name="lblUserIDP2" Content="UserID" HorizontalAlignment="Left" Margin="198,548,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <Label x:Name="lblMsgP2" Content="Please pick a 5 degit ID to use for logging in." HorizontalAlignment="Left" Margin="302,591,0,0" VerticalAlignment="Top" Background="{x:Null}"/>
-        <TextBox x:Name="txtBPhoneNumeP2" HorizontalAlignment="Left" Height="38" Margin="352,622,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198" FontSize="20" TextChanged="TextBox1_TextChanged"/>
-        <Label x:Name="lblPhoNumP2" Content="Phone Number" HorizontalAlignment="Left" Margin="198,622,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <Button x:Name="btnRegP2" Content="Register " HorizontalAlignment="Left" Margin="366,676,0,0" VerticalAlignment="Top" Width="184" Height="39" Background="#FF00C5FF" Foreground="White" FontSize="14" BorderBrush="#FF00F3FF" Click="BtnRegFoProv_Click"/>
-        <TextBox x:Name="txtBLNameP2" HorizontalAlignment="Left" Height="38" Margin="352,362,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198" FontSize="20"/>
-        <Button x:Name="btnBackP2" Content="Login" HorizontalAlignment="Left" Margin="198,676,0,0" VerticalAlignment="Top" Width="113" BorderBrush="#FF00C5FF" Background="White" Height="39" FontSize="14" Foreground="#FF00C5FF" Click="BtnBackP2_Click_1"/>
-        <Button x:Name="btnChangeP2" Content="Change Password" HorizontalAlignment="Left" Margin="265,730,0,0" VerticalAlignment="Top" Width="146" BorderBrush="White" Background="White" Foreground="#FF00C5FF" Click="BtnChangeP2_Click"/>
+        <Label x:Name="lblRegP2" Content="Register for human service." HorizontalAlignment="Left" Margin="291,246,0,0" VerticalAlignment="Top" FontSize="17"/>
+        <TextBox x:Name="txtBFNameP2" HorizontalAlignment="Left" Height="38" Margin="321,293,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" FontSize="20" TextChanged="TextBox1_TextChanged"/>
+        <Label x:Name="lblFNameP2" Content="First Name:" HorizontalAlignment="Left" Margin="197,299,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="lblLNameP2" Content="Last Name:" HorizontalAlignment="Left" Margin="197,347,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="txtBEmailP2" HorizontalAlignment="Left" Height="38" Margin="321,399,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" FontSize="20" TextChanged="TextBox1_TextChanged"/>
+        <Label x:Name="lblEP2" Content="Email:" HorizontalAlignment="Left" Margin="242,402,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="txtBPasswordP2" HorizontalAlignment="Left" Height="38" Margin="321,451,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" FontSize="20" TextChanged="TextBox1_TextChanged"/>
+        <Label x:Name="lblPassP2" Content="Password:" HorizontalAlignment="Left" Margin="202,455,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="txtBUserIDP2" HorizontalAlignment="Left" Height="38" Margin="321,525,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" FontSize="20" TextChanged="TextBox1_TextChanged"/>
+        <Label x:Name="lblUserIDP2" Content="UserID:" HorizontalAlignment="Left" Margin="222,527,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="lblMsgP2" Content="Please pick a 5 degit ID to use for logging in." HorizontalAlignment="Left" Margin="306,494,0,0" VerticalAlignment="Top" Background="{x:Null}" Height="29" Width="248"/>
+        <TextBox x:Name="txtBPhoneNumeP2" HorizontalAlignment="Left" Height="38" Margin="321,573,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" FontSize="20" TextChanged="TextBox1_TextChanged"/>
+        <Label x:Name="lblPhoNumP2" Content="Phone Number:" HorizontalAlignment="Left" Margin="144,576,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Button x:Name="btnRegP2" Content="Register " HorizontalAlignment="Left" Margin="450,633,0,0" VerticalAlignment="Top" Width="99" Height="39" Background="#FF75BC03" Foreground="Black" FontSize="18" BorderBrush="{x:Null}" Click="BtnRegFoProv_Click"/>
+        <TextBox x:Name="txtBLNameP2" HorizontalAlignment="Left" Height="38" Margin="321,347,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" FontSize="20"/>
+        <Button x:Name="btnBackP2" Content="Login" HorizontalAlignment="Left" Margin="321,633,0,0" VerticalAlignment="Top" Width="98" BorderBrush="{x:Null}" Background="#FF75BC03" Height="39" FontSize="18" Foreground="Black" Click="BtnBackP2_Click_1"/>
+        <Button x:Name="btnChangeP2" Content="Forget password?" HorizontalAlignment="Left" Margin="358,689,0,0" VerticalAlignment="Top" Width="146" BorderBrush="White" Background="White" Foreground="Black" Click="BtnChangeP2_Click" Height="27"/>
     </Grid>
 </Window>

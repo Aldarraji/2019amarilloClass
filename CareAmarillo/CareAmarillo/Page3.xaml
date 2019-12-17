@@ -7,28 +7,28 @@
         mc:Ignorable="d"
         Title="Page3" Height="800" Width="800">
     <Grid>
-        <Button x:Name="btnRegister" Content="Register" HorizontalAlignment="Left" Margin="421,521,0,0" VerticalAlignment="Top" Width="108" Height="39" Background="#FF00C5FF" Foreground="White" FontSize="14" BorderBrush="#FF00F3FF" Click="BtnRegister_Click"/>
-        <Button x:Name="btnLogin" Content="Login" HorizontalAlignment="Left" Margin="291,521,0,0" VerticalAlignment="Top" Width="113" BorderBrush="#FF00C5FF" Background="White" Height="39" FontSize="14" Foreground="#FF00C5FF" Click="BtnLogin_Click"/>
-        <Button x:Name="btnChange" Content="Change Password" HorizontalAlignment="Left" Margin="337,585,0,0" VerticalAlignment="Top" Width="146" BorderBrush="White" Background="White" Foreground="#FF00C5FF" Click="BtnChange_Click"/>
-        <Image x:Name="imgHands" HorizontalAlignment="Left" Height="197" Margin="303,-12,0,0" VerticalAlignment="Top" Width="262" Source="Capture.JPG" RenderTransformOrigin="0.643,0.319"/>
-        <Label x:Name="lblCare" Content="CareAmarillo" HorizontalAlignment="Left" Margin="337,159,0,0" VerticalAlignment="Top" FontSize="24" Height="95" Width="146"/>
-        <Label x:Name="lblRegister" Content="Register as an emergency shelter provider" HorizontalAlignment="Left" Margin="291,190,0,0" VerticalAlignment="Top" Width="238"/>
-        <Label Content="Provider Name" HorizontalAlignment="Left" Height="34" Margin="291,231,0,0" VerticalAlignment="Top" Width="98"/>
-        <Label x:Name="lblZipCode" Content="Zip Code" HorizontalAlignment="Left" Height="34" Margin="291,265,0,0" VerticalAlignment="Top" Width="69"/>
-        <Label Content="Available Beds" HorizontalAlignment="Left" Height="34" Margin="291,299,0,0" VerticalAlignment="Top" Width="89"/>
-        <Label Content="Email" HorizontalAlignment="Left" Height="34" Margin="291,333,0,0" VerticalAlignment="Top" Width="69"/>
-        <Label Content="Address" HorizontalAlignment="Left" Height="34" Margin="291,367,0,0" VerticalAlignment="Top" Width="69"/>
-        <Label Content="Phone Number" HorizontalAlignment="Left" Height="34" Margin="291,401,0,0" VerticalAlignment="Top" Width="98"/>
-        <TextBox x:Name="txtZipCode" HorizontalAlignment="Left" Height="20" Margin="432,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TextAlignment="Center"/>
-        <TextBox x:Name="txtBed" HorizontalAlignment="Left" Height="20" Margin="432,299,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TextAlignment="Center"/>
-        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="20" Margin="432,333,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TextAlignment="Center"/>
-        <TextBox x:Name="txtAddress" HorizontalAlignment="Left" Height="20" Margin="432,367,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TextAlignment="Center"/>
-        <TextBox x:Name="txtPhone" HorizontalAlignment="Left" Height="20" Margin="432,401,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TextAlignment="Center"/>
-        <TextBox x:Name="txtPName" HorizontalAlignment="Left" Height="20" Margin="432,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TextAlignment="Center"/>
-        <Label x:Name="lblCity" Content="City" HorizontalAlignment="Left" Height="34" Margin="291,435,0,0" VerticalAlignment="Top" Width="98"/>
-        <Label x:Name="lblState" Content="State" HorizontalAlignment="Left" Height="34" Margin="291,469,0,0" VerticalAlignment="Top" Width="98"/>
-        <TextBox x:Name="txtCity" HorizontalAlignment="Left" Height="20" Margin="432,435,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TextAlignment="Center"/>
-        <TextBox x:Name="txtState" HorizontalAlignment="Left" Height="20" Margin="432,469,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" TextAlignment="Center"/>
+        <Button x:Name="btnRegister" Content="Register" HorizontalAlignment="Left" Margin="475,671,0,0" VerticalAlignment="Top" Width="101" Height="48" Background="#FF75BC03" Foreground="Black" FontSize="14" BorderBrush="White" Click="BtnRegister_Click"/>
+        <Button x:Name="btnLogin" Content="Login" HorizontalAlignment="Left" Margin="348,671,0,0" VerticalAlignment="Top" Width="101" BorderBrush="{x:Null}" Background="#FF75BC03" Height="48" FontSize="14" Foreground="Black" Click="BtnLogin_Click"/>
+        <Button x:Name="btnChange" Content="Forget password?" HorizontalAlignment="Left" Margin="367,723,0,0" VerticalAlignment="Top" Width="179" BorderBrush="White" Background="White" Foreground="Black" Click="BtnChange_Click" Height="25"/>
+        <Image x:Name="imgHands" Height="216" Margin="207,10,226.286,0" VerticalAlignment="Top" Source="Capture.JPG" RenderTransformOrigin="0.643,0.319" Width="284"/>
+        <Label x:Name="lblCare" Content="CareAmarillo" HorizontalAlignment="Left" Margin="249,191,0,0" VerticalAlignment="Top" FontSize="45" Height="69" Width="265"/>
+        <Label x:Name="lblRegister" Content="Register as an emergency shelter provider" HorizontalAlignment="Left" Margin="226,250,0,0" VerticalAlignment="Top" Width="343" FontSize="17"/>
+        <Label Content="Provider Name:" HorizontalAlignment="Left" Height="41" Margin="180,297,0,0" VerticalAlignment="Top" Width="148" FontSize="20"/>
+        <Label x:Name="lblZipCode" Content="Zip Code:" HorizontalAlignment="Left" Height="42" Margin="230,346,0,0" VerticalAlignment="Top" Width="109" FontSize="20"/>
+        <Label Content="Available Beds:" HorizontalAlignment="Left" Height="42" Margin="182,394,0,0" VerticalAlignment="Top" Width="143" FontSize="20"/>
+        <Label Content="Email:" HorizontalAlignment="Left" Height="42" Margin="260,438,0,0" VerticalAlignment="Top" Width="65" FontSize="20"/>
+        <Label Content="Address:" HorizontalAlignment="Left" Height="42" Margin="235,486,0,0" VerticalAlignment="Top" Width="85" FontSize="20"/>
+        <Label Content="Phone Number:" HorizontalAlignment="Left" Height="42" Margin="172,532,0,0" VerticalAlignment="Top" Width="148" FontSize="20"/>
+        <TextBox x:Name="txtZipCode" HorizontalAlignment="Left" Height="38" Margin="348,347,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" TextAlignment="Center"/>
+        <TextBox x:Name="txtBed" HorizontalAlignment="Left" Height="38" Margin="348,393,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" TextAlignment="Center"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="38" Margin="348,440,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" TextAlignment="Center"/>
+        <TextBox x:Name="txtAddress" HorizontalAlignment="Left" Height="38" Margin="348,488,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" TextAlignment="Center"/>
+        <TextBox x:Name="txtPhone" HorizontalAlignment="Left" Height="38" Margin="348,534,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" TextAlignment="Center"/>
+        <TextBox x:Name="txtPName" HorizontalAlignment="Left" Height="38" Margin="348,298,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" TextAlignment="Center"/>
+        <Label x:Name="lblCity" Content="City:" HorizontalAlignment="Left" Height="41" Margin="272,576,0,0" VerticalAlignment="Top" Width="61" FontSize="20"/>
+        <Label x:Name="lblState" Content="State:" HorizontalAlignment="Left" Height="42" Margin="260,623,0,0" VerticalAlignment="Top" Width="65" FontSize="20"/>
+        <TextBox x:Name="txtCity" HorizontalAlignment="Left" Height="38" Margin="348,579,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" TextAlignment="Center"/>
+        <TextBox x:Name="txtState" HorizontalAlignment="Left" Height="38" Margin="348,624,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" TextAlignment="Center"/>
 
     </Grid>
 </Window>
