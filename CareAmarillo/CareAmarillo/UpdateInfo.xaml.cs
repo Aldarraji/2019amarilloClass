@@ -19,47 +19,39 @@ namespace CareAmarillo
     /// </summary>
     public partial class UpdateInfo : Window
     {
+        private Update updateInfo;
+        private Search login;
         public UpdateInfo()
         {
             InitializeComponent();
+            updateInfo = new Update();
+            login = new Search();
         }
 
-        private void BtnRegFoProv_Click(object sender, RoutedEventArgs e)
+        private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-            //if the loging and other update info was empty, show error message then return
-            string i = txtUserIDP9.Text;
-            //MessageBox.Show(i.ToString());
-            if (i =="")
+            try
             {
-                lblErrorEditP9.Content = "Please sign in or update info correctly.";
+                var userID = txtUserID.Text;
+                var password = txtPassword.Text;
+                login.FindUser(userID, password);
+                MessageBox.Show("Successfully login!");
             }
-            else if (txtboxPassP9.Text == "")
+            catch
             {
-                lblErrorEditP9.Content = "Please sign in or update info correctly.";
+                MessageBox.Show("Cannot login!");
             }
-
-            //page 9 when submit clicked, show user infor to edit. txtBox
-            
-
-            
-
         }
 
-        private void TextBox1_TextChanged(object sender, TextChangedEventArgs e)
+        private void btnUpdate(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void BtnBackP2_Click_1(object sender, RoutedEventArgs e)
-        {
-            this.Hide();
-            MainWindow MainWindow = new MainWindow();
-            MainWindow.Show();
-        }
-
-        private void TxtboxPassP9_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            
+            var userID = txtUserID.Text;
+            var password = txtUserPassword.Text;
+            var firstName = txtUserFirstName.Text;
+            var lastName = txtUserLastName.Text;
+            var email = txtUserEmail.Text;
+            //var phoneNumber = txtUserPhoneNumber.Text;
+            updateInfo.UpdateAUser(userID, password, firstName, lastName, email);
         }
     }
 }
