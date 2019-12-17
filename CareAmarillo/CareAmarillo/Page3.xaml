@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="Page3" Height="800" Width="800">
     <Grid>
-        <Button x:Name="btnRegister" Content="Register" HorizontalAlignment="Left" Margin="475,671,0,0" VerticalAlignment="Top" Width="101" Height="48" Background="#FF75BC03" Foreground="Black" FontSize="14" BorderBrush="White" Click="BtnRegister_Click"/>
-        <Button x:Name="btnLogin" Content="Login" HorizontalAlignment="Left" Margin="348,671,0,0" VerticalAlignment="Top" Width="101" BorderBrush="{x:Null}" Background="#FF75BC03" Height="48" FontSize="14" Foreground="Black" Click="BtnLogin_Click"/>
+        <Button x:Name="btnRegister" Content="Register" HorizontalAlignment="Left" Margin="475,671,0,0" VerticalAlignment="Top" Width="101" Height="38" Background="#FF75BC03" Foreground="Black" FontSize="18" BorderBrush="White" Click="BtnRegister_Click"/>
+        <Button x:Name="btnLogin" Content="Login" HorizontalAlignment="Left" Margin="348,671,0,0" VerticalAlignment="Top" Width="101" BorderBrush="{x:Null}" Background="#FF75BC03" Height="38" FontSize="18" Foreground="Black" Click="BtnLogin_Click"/>
         <Button x:Name="btnChange" Content="Forget password?" HorizontalAlignment="Left" Margin="367,723,0,0" VerticalAlignment="Top" Width="179" BorderBrush="White" Background="White" Foreground="Black" Click="BtnChange_Click" Height="25"/>
         <Image x:Name="imgHands" Height="216" Margin="207,10,226.286,0" VerticalAlignment="Top" Source="Capture.JPG" RenderTransformOrigin="0.643,0.319" Width="284"/>
         <Label x:Name="lblCare" Content="CareAmarillo" HorizontalAlignment="Left" Margin="249,191,0,0" VerticalAlignment="Top" FontSize="45" Height="69" Width="265"/>

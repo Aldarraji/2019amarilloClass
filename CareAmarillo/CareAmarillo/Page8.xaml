@@ -9,27 +9,21 @@
       Title="Page8"
      Height="800" Width="800">
     <Grid Background="White">
-        <Image x:Name="imgLogo" Margin="265,27,275,597" Source="Capture.JPG"/>
-        <Label x:Name="lblCAp2" Content="CareAmarillo" HorizontalAlignment="Left" Margin="266,198,0,0" VerticalAlignment="Top" FontSize="45"/>
-        <Label x:Name="lblFNameP2" HorizontalAlignment="Left" Margin="198,304,0,0" VerticalAlignment="Top" FontSize="20">
+        <Image x:Name="imgLogo" Margin="297,51,299.286,541.429" Source="Capture.JPG" Width="198" Height="179"/>
+        <Label x:Name="lblCAp2" Content="CareAmarillo" HorizontalAlignment="Left" Margin="266,212,0,0" VerticalAlignment="Top" FontSize="45"/>
+        <Label x:Name="lblFNameP2" HorizontalAlignment="Left" Margin="174,409,0,0" VerticalAlignment="Top" FontSize="20">
             <Label x:Name="lblFNameP2_Copy2" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20"/>
         </Label>
-        <Label x:Name="lblWelcomeText" Content="Welcome back, " Margin="478,27,162,725" VerticalContentAlignment="Center" FontSize="18" FontWeight="Bold"/>
-        <Label x:Name="lblWelcomeText_Copy" Content="First Name" VerticalContentAlignment="Center" FontSize="18" FontWeight="Bold" Margin="620,27,20,725"/>
-        <Label x:Name="lblWelcomeText_Copy1" Content="What would you like to do?" VerticalContentAlignment="Center" FontSize="18" FontWeight="Bold" Margin="266,256,226,481"/>
-        <Label x:Name="lblWelcomeText_Copy2" Content="Enter UserID to see Data" VerticalContentAlignment="Center" FontSize="18" FontWeight="Bold" Margin="129,446,421,270"/>
-        <Label x:Name="lblWelcomeText_Copy3" VerticalContentAlignment="Center" FontSize="18" FontWeight="Bold" Margin="33,293,628,428">
-            <Label x:Name="lblWelcomeText_Copy7" Content="Enter UserID" VerticalContentAlignment="Center" FontSize="18" FontWeight="Bold" Height="48" Width="160"/>
-        </Label>
-        <Label x:Name="lblWelcomeText_Copy4" Content="Enter UserID to Disable account" VerticalContentAlignment="Center" FontSize="18" FontWeight="Bold" Margin="107,366,421,350"/>
-        <Button Content="Change Password" HorizontalAlignment="Left" Margin="671,303,0,0" VerticalAlignment="Top" Width="109" Height="31" RenderTransformOrigin="1.484,0.741"/>
-        <Button Content="Data" HorizontalAlignment="Left" Margin="620,446,0,0" VerticalAlignment="Top" Width="109" Height="31"/>
-        <Label x:Name="lblWelcomeText_Copy6" Content="Enter Password" VerticalContentAlignment="Center" FontSize="18" FontWeight="Bold" Margin="324,293,308,428"/>
-        <TextBox x:Name="txtBFNameP2" HorizontalAlignment="Left" Height="38" Margin="164,303,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" FontSize="20" />
-        <TextBox x:Name="txtBFNameP2_Copy" HorizontalAlignment="Left" Height="38" Margin="489,303,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="135" FontSize="20" />
-        <Button Content="Delete" HorizontalAlignment="Left" Margin="620,388,0,0" VerticalAlignment="Top" Width="109" Height="31"/>
-        <TextBox x:Name="txtBFNameP2_Copy1" HorizontalAlignment="Left" Height="53" Margin="414,366,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152" FontSize="20" />
-        <Button x:Name="button" Content="Back To Main" HorizontalAlignment="Left" Margin="380,724,0,0" VerticalAlignment="Top" Width="104" Height="44" FontSize="14" Background="#FF00C5FF" Foreground="White" Click="Button_Click" FontWeight="Bold" />
-        <TextBox x:Name="txtBFNameP2_Copy2" HorizontalAlignment="Left" Height="53" Margin="414,446,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152" FontSize="20" />
+        <Label x:Name="lblWelcomeText" Content="Welcome back, " Margin="500,10,140.286,724.429" VerticalContentAlignment="Center" FontSize="18" FontWeight="Bold"/>
+        <Label x:Name="lblWelcomeText_Copy" Content="First Name" VerticalContentAlignment="Center" FontSize="18" Margin="649,10,20.286,724.429"/>
+        <Label x:Name="lblWelcomeText_Copy1" Content="What would you like to do?" VerticalContentAlignment="Center" FontSize="18" Margin="280,287,211.286,450.429"/>
+        <Label x:Name="lblWelcomeText_Copy4" Content="UserID:" VerticalContentAlignment="Center" FontSize="20" Margin="224,546,495.286,170.429"/>
+        <Button Content="Change" HorizontalAlignment="Left" Margin="442,467,0,0" VerticalAlignment="Top" Width="109" Height="38" RenderTransformOrigin="1.484,0.741" FontSize="18" Background="#FF75BC03" BorderBrush="{x:Null}"/>
+        <Label x:Name="lblWelcomeText_Copy6" Content="New Password:" VerticalContentAlignment="Center" FontSize="20" Margin="156,416,493.286,305.429"/>
+        <TextBox x:Name="txtBFNameP2" HorizontalAlignment="Left" Height="38" Margin="324,372,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" FontSize="20" />
+        <TextBox x:Name="txtBFNameP2_Copy" HorizontalAlignment="Left" Height="38" Margin="323,423,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" FontSize="20" />
+        <Button Content="Delete" HorizontalAlignment="Left" Margin="448,604,0,0" VerticalAlignment="Top" Width="101" Height="38" Background="#FF75BC03" BorderBrush="{x:Null}" FontSize="18"/>
+        <TextBox x:Name="txtBFNameP2_Copy1" HorizontalAlignment="Left" Height="38" Margin="320,556,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" FontSize="20" />
+        <Label x:Name="lblWelcomeText_Copy5" Content="UserID:" VerticalContentAlignment="Center" FontSize="20" Margin="226,368,492.286,353.429"/>
     </Grid>
 </Window>
