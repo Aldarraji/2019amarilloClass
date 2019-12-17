@@ -7,28 +7,27 @@
         mc:Ignorable="d"
         Title="UpdateInfo" Height="800" Width="800">
     <Grid>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="70" Margin="28,25,0,0" VerticalAlignment="Top" Width="100" Source="Capture.JPG"/>
-        <Label x:Name="lblCAP9" Content="CareAmarillo Update profile info." HorizontalAlignment="Left" Margin="128,25,0,0" VerticalAlignment="Top" FontSize="45" Height="70" Width="664"/>
-        <Label x:Name="lblinfoP9" Content="pleace sign in to update info." HorizontalAlignment="Left" Margin="222,100,0,0" VerticalAlignment="Top" FontSize="22" Height="39" Width="356"/>
-        <TextBox x:Name="txtUserIDP9" HorizontalAlignment="Left" Height="38" Margin="377,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197" FontSize="20" TextChanged="TextBox1_TextChanged"/>
-        <TextBox x:Name="txtPasswordP9" HorizontalAlignment="Left" Height="38" Margin="377,216,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197" FontSize="20" TextChanged="TextBox1_TextChanged"/>
-        <Label x:Name="lblUserP9" Content="UserID" HorizontalAlignment="Left" Margin="222,157,0,0" VerticalAlignment="Top" FontSize="20" Height="37" Width="69"/>
-        <Label x:Name="lblPasswordP9" Content="Password" HorizontalAlignment="Left" Margin="222,216,0,0" VerticalAlignment="Top" FontSize="20" Height="37" Width="93"/>
-        <Button x:Name="btnRegP2" Content="Submit" HorizontalAlignment="Left" Margin="388,272,0,0" VerticalAlignment="Top" Width="182" Height="40" Background="#FF00C5FF" Foreground="White" FontSize="14" BorderBrush="#FF00F3FF" Click="BtnRegFoProv_Click"/>
-        <Button x:Name="btnBackP2" Content="Login" HorizontalAlignment="Left" Margin="222,272,0,0" VerticalAlignment="Top" Width="112" BorderBrush="#FF00C5FF" Background="White" Height="40" FontSize="14" Foreground="#FF00C5FF" Click="BtnBackP2_Click_1"/>
-        <Label x:Name="lblpassP9" Content="Update Password" HorizontalAlignment="Left" Height="44" Margin="228,382,0,0" VerticalAlignment="Top" Width="104"/>
-        <Label x:Name="lblFnameP9" Content="First name" HorizontalAlignment="Left" Height="44" Margin="228,427,0,0" VerticalAlignment="Top" Width="149"/>
-        <TextBox x:Name="txtboxPassP9" HorizontalAlignment="Left" Height="26" Margin="423,382,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147" TextAlignment="Center" TextChanged="TxtboxPassP9_TextChanged"/>
-        <TextBox x:Name="txtboxFnameP9" HorizontalAlignment="Left" Height="26" Margin="423,427,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147" TextAlignment="Center"/>
-        <Label x:Name="lblLnameP9" Content="Last Name" HorizontalAlignment="Left" Height="44" Margin="228,472,0,0" VerticalAlignment="Top" Width="149"/>
-        <TextBox x:Name="txtboxLnameP9" HorizontalAlignment="Left" Height="26" Margin="423,472,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147" TextAlignment="Center"/>
-        <Label x:Name="lblEmailP9" Content="Email" HorizontalAlignment="Left" Height="44" Margin="228,516,0,0" VerticalAlignment="Top" Width="149"/>
-        <TextBox x:Name="txtBoxEmailP9" HorizontalAlignment="Left" Height="26" Margin="423,516,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147" TextAlignment="Center"/>
-        <Label x:Name="lblPhonP9" Content="Phone Number" HorizontalAlignment="Left" Height="44" Margin="228,566,0,0" VerticalAlignment="Top" Width="149"/>
-        <TextBox x:Name="txtBoxPhonP9" HorizontalAlignment="Left" Height="26" Margin="423,566,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147" TextAlignment="Center"/>
-        <Label x:Name="lblinfoP1" Content="*Profile info will show once signed in." HorizontalAlignment="Left" Height="44" Margin="263,333,0,0" VerticalAlignment="Top" Width="282" Foreground="Red" FontSize="15"/>
-        <Button x:Name="btnUpdateP9" Content="Update" HorizontalAlignment="Left" Margin="292,644,0,0" VerticalAlignment="Top" Width="182" Height="40" Background="#FF00C5FF" Foreground="White" FontSize="14" BorderBrush="#FF00F3FF" Click="BtnRegFoProv_Click"/>
-        <Label x:Name="lblErrorEditP9" Content="" HorizontalAlignment="Left" Height="34" Margin="263,610,0,0" VerticalAlignment="Top" Width="282" Foreground="Red" FontSize="15"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="176" Margin="292,10,0,0" VerticalAlignment="Top" Width="196" Source="Capture.JPG"/>
+        <Label x:Name="lblCAP9" Content="CareAmarillo" HorizontalAlignment="Left" Margin="246,160,0,0" VerticalAlignment="Top" FontSize="48" Height="70" Width="299"/>
+        <Label x:Name="lblinfoP9" Content="*Pleace sign in to update info." HorizontalAlignment="Left" Margin="284,237,0,0" VerticalAlignment="Top" FontSize="15" Height="39" Width="221" Background="{x:Null}" Foreground="Red"/>
+        <TextBox x:Name="txtUserIDP9" HorizontalAlignment="Left" Height="38" Margin="331,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" FontSize="20" TextChanged="TextBox1_TextChanged"/>
+        <TextBox x:Name="txtPasswordP9" HorizontalAlignment="Left" Height="38" Margin="331,332,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" FontSize="20" TextChanged="TextBox1_TextChanged"/>
+        <Label x:Name="lblUserP9" Content="UserID:" HorizontalAlignment="Left" Margin="246,285,0,0" VerticalAlignment="Top" FontSize="20" Height="37" Width="78"/>
+        <Label x:Name="lblPasswordP9" Content="Password:" HorizontalAlignment="Left" Margin="222,332,0,0" VerticalAlignment="Top" FontSize="20" Height="37" Width="101"/>
+        <Button x:Name="btnBackP2" Content="Login" HorizontalAlignment="Left" Margin="447,378,0,0" VerticalAlignment="Top" Width="112" BorderBrush="{x:Null}" Background="#FF75BC03" Height="38" FontSize="18" Foreground="Black" Click="BtnBackP2_Click_1"/>
+        <Label x:Name="lblpassP9" Content="Password:" HorizontalAlignment="Left" Height="44" Margin="217,472,0,0" VerticalAlignment="Top" Width="99" FontSize="20"/>
+        <Label x:Name="lblFnameP9" Content="First Name:" HorizontalAlignment="Left" Height="44" Margin="205,513,0,0" VerticalAlignment="Top" Width="109" FontSize="20"/>
+        <TextBox x:Name="txtboxPassP9" HorizontalAlignment="Left" Height="38" Margin="331,472,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" TextAlignment="Center" TextChanged="TxtboxPassP9_TextChanged"/>
+        <TextBox x:Name="txtboxFnameP9" HorizontalAlignment="Left" Height="38" Margin="331,517,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" TextAlignment="Center"/>
+        <Label x:Name="lblLnameP9" Content="Last Name:" HorizontalAlignment="Left" Height="44" Margin="205,559,0,0" VerticalAlignment="Top" Width="113" FontSize="20"/>
+        <TextBox x:Name="txtboxLnameP9" HorizontalAlignment="Left" Height="38" Margin="331,562,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" TextAlignment="Center"/>
+        <Label x:Name="lblEmailP9" Content="Email:" HorizontalAlignment="Left" Height="44" Margin="254,604,0,0" VerticalAlignment="Top" Width="77" FontSize="20"/>
+        <TextBox x:Name="txtBoxEmailP9" HorizontalAlignment="Left" Height="38" Margin="331,606,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" TextAlignment="Center"/>
+        <Label x:Name="lblPhonP9" Content="Phone Number:" HorizontalAlignment="Left" Height="44" Margin="163,651,0,0" VerticalAlignment="Top" Width="155" FontSize="20"/>
+        <TextBox x:Name="txtBoxPhonP9" HorizontalAlignment="Left" Height="38" Margin="331,656,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" TextAlignment="Center"/>
+        <Label x:Name="lblinfoP1" Content="*Profile info will show once signed in." HorizontalAlignment="Left" Height="44" Margin="242,430,0,0" VerticalAlignment="Top" Width="282" Foreground="Red" FontSize="15"/>
+        <Button x:Name="btnUpdateP9" Content="Update" HorizontalAlignment="Left" Margin="447,703,0,0" VerticalAlignment="Top" Width="112" Height="40" Background="#FF75BC03" Foreground="Black" FontSize="18" BorderBrush="{x:Null}" Click="BtnRegFoProv_Click"/>
+        <Label x:Name="lblErrorEditP9" Content="" HorizontalAlignment="Left" Height="34" Margin="217,700,0,0" VerticalAlignment="Top" Width="282" Foreground="Red" FontSize="15"/>
 
     </Grid>
 </Window>
