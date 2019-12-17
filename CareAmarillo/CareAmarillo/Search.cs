@@ -21,15 +21,15 @@ namespace CareAmarillo
             }
         }
 
-        public string FindFirstName(string firstName)
+        public string FindColumn(string userID, string colName)
         {
             string rec = "";
             using (SqlCommand FindFirstNameRecord = connection.CreateCommand())
             {
-                FindFirstNameRecord.CommandText = "select FirstName from Person where FirstName like @firstName;";
+                FindFirstNameRecord.CommandText = "select * from Person where UserID like @UserID;";
 
 
-                FindFirstNameRecord.Parameters.Add(new SqlParameter("firstName", "%" + firstName + "%"));
+                FindFirstNameRecord.Parameters.Add(new SqlParameter("UserID", "%" + userID + "%"));
 
                 // The using block for handling the IO
                 using (SqlDataReader reader = FindFirstNameRecord.ExecuteReader())
@@ -48,12 +48,11 @@ namespace CareAmarillo
                     // Get the data you want from the SQL Select and do whatever you want with it.
                     while (reader.Read())
                     {
-                        rec += reader.GetFieldValue<string>(columnNames["FirstName"]);
+                        rec = reader.GetFieldValue<string>(columnNames[colName]);
                     }
                 }
             }
             return rec;
-
         }
 
         public string FindAShelter(string shelterName)
@@ -90,7 +89,7 @@ namespace CareAmarillo
                         rec += "City:          " + reader.GetFieldValue<string>(columnNames["City"]) + " \n";
                         rec += "Zipcode:   " + reader.GetFieldValue<int>(columnNames["ZipCode"]) + " \n";
                         rec += "State:        " + reader.GetFieldValue<string>(columnNames["State"]) + " \n";
-                        rec += " \n";
+                        rec += "\n";
                     }
                 }
             }
