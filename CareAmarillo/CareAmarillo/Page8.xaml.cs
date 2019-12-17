@@ -52,14 +52,44 @@ namespace CareAmarillo
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
-            updateUser.UpdateAUser(txtBFNameP2.Text, txtBFNameP2_Copy.Text);
-            MessageBox.Show("Password has been successfully changed!");
+
+            var userid = txtBFNameP2.Text;
+            var npassword = txtBFNameP2_Copy.Text;
+
+            //var valaidateLogin = 
+
+            if ( userid == "" || npassword == "")
+            {
+                MessageBox.Show("Provide all fields!");
+            }
+            else
+            {
+                updateUser.UpdateAUser(userid, npassword);
+                MessageBox.Show("Password has been successfully changed!");
+            }
         }
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
-            updateUser.DeleteAUser(txtBFNameP2_Copy1.Text, txtPW.Text);
-            MessageBox.Show("User has been deleted successfully!");
+
+
+            var userid = txtBFNameP2_Copy1.Text;
+            var npassword = txtPW.Text;
+
+
+            if (userid == "" || npassword == "")
+            {
+                MessageBox.Show("Provide all fields!");
+            }
+            else
+            {
+                updateUser.DeleteAUser(txtBFNameP2_Copy1.Text, txtPW.Text);
+            
+                MessageBox.Show("User has been deleted successfully!");
+            }
+
+
+
         }
     }
 }
