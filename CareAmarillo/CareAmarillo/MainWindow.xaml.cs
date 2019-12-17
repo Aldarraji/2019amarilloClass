@@ -80,7 +80,7 @@ namespace CareAmarillo
         {
             //display change password and update info 
             this.Hide();
-            Page8 page8 = new Page8();
+            UpdateInfo page8 = new UpdateInfo();
             page8.Show();
         }
 
