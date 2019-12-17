@@ -20,15 +20,16 @@ namespace CareAmarillo
     /// <summary>
     /// Interaction logic for Page2.xaml
     /// </summary>
+     
     public partial class Page2 : Window
     {
+        private Add addAHuman;
         SqlConnection connection = new SqlConnection();
 
         public Page2()
         {
             InitializeComponent();
-            connection.ConnectionString = "Server=cis1.actx.edu;Database=project1;user id=db1;Password=db10;";
-            connection.Open();
+            addAHuman = new Add();
         }
 
         private void TextBox1_TextChanged(object sender, TextChangedEventArgs e)
@@ -70,7 +71,7 @@ namespace CareAmarillo
             //show a message box to conferm the regestration
             else
             {
-                AddHumanService();
+                addAHuman.AddHumanService(txtBFNameP2.Text, txtBLNameP2.Text, txtBEmailP2.Text, txtBUserIDP2.Text, txtBPasswordP2.Text);
                 MessageBox.Show("You have registered successfully. \n Please press ok then log in.");
                 //take back to the main page to log in
                 this.Hide();
@@ -94,20 +95,5 @@ namespace CareAmarillo
             update.Show();
         }
 
-        private void AddHumanService()
-        {
-            using (SqlCommand insertNewProvider = connection.CreateCommand())       //write a function for that
-            {
-                insertNewProvider.CommandText = "insert into Person values (@ID, @FirstName, @LastName, @Email, @TypeID, @UserID, @ShelterID, @Password);";
-                insertNewProvider.Parameters.Add(new SqlParameter("FirstName", txtBFNameP2.Text));
-                insertNewProvider.Parameters.Add(new SqlParameter("LastName", txtBLNameP2.Text));
-                insertNewProvider.Parameters.Add(new SqlParameter("Email", txtBEmailP2.Text));
-                insertNewProvider.Parameters.Add(new SqlParameter("TypeID", 6));
-                insertNewProvider.Parameters.Add(new SqlParameter("UserID", txtBUserIDP2.Text));
-                insertNewProvider.Parameters.Add(new SqlParameter("ShelterID", null));
-                insertNewProvider.Parameters.Add(new SqlParameter("Password", txtBPasswordP2.Text));
-                insertNewProvider.ExecuteNonQuery();
-            }
-        }
     }
 }

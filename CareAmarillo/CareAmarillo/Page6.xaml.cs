@@ -109,5 +109,10 @@ namespace CareAmarillo
             MainWindow mw = new MainWindow();
             mw.Show();
         }
+
+        private void txtSearch_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
