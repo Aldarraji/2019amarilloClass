@@ -106,5 +106,12 @@ namespace CareAmarillo
         {
 
         }
+
+        private void BtnLogOut_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            MainWindow MainWindow = new MainWindow();
+            MainWindow.Show();
+        }
     }
 }

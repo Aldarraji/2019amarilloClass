@@ -27,5 +27,6 @@
         <Label x:Name="lblWelcomeText_Copy5" Content="UserID:" VerticalContentAlignment="Center" FontSize="20" Margin="219,368,492,353"/>
         <TextBox x:Name="txtPW" HorizontalAlignment="Left" Height="38" Margin="320,615,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" FontSize="20" />
         <Label x:Name="lblWelcomeText_Copy2" Content="Password:" VerticalContentAlignment="Center" FontSize="20" Margin="190,601,492,116"/>
+        <Button x:Name="btnLogOutP8" Content="Log Out" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top" Width="100" FontSize="18" Background="#FF75BC03" Height="44" Click="BtnLogOut_Click"/>
     </Grid>
 </Window>

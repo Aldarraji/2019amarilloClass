@@ -26,6 +26,7 @@
         <Button x:Name="btnUpdateP9" Content="Update" HorizontalAlignment="Left" Margin="447,655,0,0" VerticalAlignment="Top" Width="112" Height="40" Background="#FF75BC03" Foreground="Black" FontSize="18" BorderBrush="{x:Null}" Click="btnUpdate"/>
         <Label x:Name="lblErrorEditP9" Content="" HorizontalAlignment="Left" Height="34" Margin="217,706,0,0" VerticalAlignment="Top" Width="282" Foreground="Red" FontSize="15"/>
         <Label x:Name="lblpassP9_Copy" Content="Password:" HorizontalAlignment="Left" Height="44" Margin="217,478,0,0" VerticalAlignment="Top" Width="99" FontSize="20"/>
+        <Button x:Name="btnLogOutP8" Content="Back" HorizontalAlignment="Left" Margin="331,349,0,0" VerticalAlignment="Top" Width="88" FontSize="18" Background="#FF75BC03" Height="38" Click="BtnLogOut_Click"/>
 
     </Grid>
 </Window>

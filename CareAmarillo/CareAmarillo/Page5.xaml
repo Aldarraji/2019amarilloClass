@@ -11,7 +11,6 @@
             <ColumnDefinition Width="13*"/>
             <ColumnDefinition Width="187*"/>
         </Grid.ColumnDefinitions>
-        <Label x:Name="lblSignoutpg5" Content="Signout" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="44" Width="85" FontSize="18" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Grid.Column="1"/>
         <Label x:Name="lblWelcometxtPG5" Content="Welcome Back," Grid.Column="1" HorizontalAlignment="Left" Margin="472,10,0,0" VerticalAlignment="Top" Height="44" Width="141" FontSize="18" FontWeight="Bold"/>
         <Label x:Name="lblFirstNamepg5" Content="User            " Grid.Column="1" HorizontalAlignment="Left" Margin="618,10,0,0" VerticalAlignment="Top" FontSize="18" Height="44" Width="98" RenderTransformOrigin="0.431,0.802"/>
         <Image x:Name="imgLogopg5" Grid.Column="1" HorizontalAlignment="Left" Height="241" Margin="229,59,0,0" VerticalAlignment="Top" Width="251" Source="Capture.JPG"/>
@@ -21,5 +20,6 @@
         <ListBox x:Name="lstResultsPG5" Grid.Column="1" HorizontalAlignment="Left" Height="262" Margin="30,478,0,0" VerticalAlignment="Top" Width="526"/>
         <Button x:Name="btnSearchPG5" Content="Search" Grid.Column="1" HorizontalAlignment="Left" Margin="603,397,0,0" VerticalAlignment="Top" Width="113" Height="42" FontSize="18" Background="#FF75BC03" Click="btnSearchPG5_Click"/>
         <Button x:Name="btnClear" Content="Clear" Grid.Column="1" HorizontalAlignment="Left" Margin="603,478,0,0" VerticalAlignment="Top" Width="113" Height="42" Background="#FF75BC03" FontSize="18" Click="btnClear_Click"/>
+        <Button x:Name="btnLogOutP8" Content="Log Out" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Width="100" FontSize="18" Background="#FF75BC03" Height="44" Click="BtnLogOut_Click" Grid.Column="1"/>
     </Grid>
 </Window>

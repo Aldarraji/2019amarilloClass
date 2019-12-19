@@ -69,5 +69,12 @@ namespace CareAmarillo
                 updateInfo.UpdateAUser(userID, password, firstName, lastName, email);
             }
         }
+
+        private void BtnLogOut_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            MainWindow MainWindow = new MainWindow();
+            MainWindow.Show();
+        }
     }
 }
