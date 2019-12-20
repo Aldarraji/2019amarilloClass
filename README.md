@@ -12,3 +12,4 @@ Currently, there is no single system in place for the City of Amarillo that allo
 This section describes the users of the CareAmarillo System. There are 4 types of users of the CareAmarillo System: the human services provider, the emergency shelter provider, the human services user, and the police.
 
 ## Screenshots
+![](https://github.com/Aldarraji/2019amarilloClass/blob/master/Page1%2012_19_2019%202_37_50%20PM.png)
