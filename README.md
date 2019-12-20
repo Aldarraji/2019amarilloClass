@@ -29,3 +29,16 @@ This section describes the users of the CareAmarillo System. There are 4 types o
 ![](https://github.com/Aldarraji/2019amarilloClass/blob/master/Page7%2012_19_2019%202_40_28%20PM.png)
 
 ![](https://github.com/Aldarraji/2019amarilloClass/blob/master/Page8%2012_19_2019%202_40_59%20PM.png)
+
+## How to use CareAmarillo 
+To log in as Emergency shelter provider enter: UserID: User1 Password: Password1 
+To log in as human service provider enter: UserID: User2 Password: Password2 
+To log in as human service user enter: UserID: User3 Password: Password3 
+To log in as Police: UserID: User4 Password: Password4 
+To log in as Admin: UserID: User5 Password: Password5 
+ 
+-You can create new shelter provider and human user then login with the userID 
+and Password. 
+-You can reset password to reset password 
+-You can edit user infor from Admin 
+
