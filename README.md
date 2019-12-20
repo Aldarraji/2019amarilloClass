@@ -1,4 +1,4 @@
-# CareAmarillo source code
+# CareAmarillo App
 
 ## Introduction
 Purpose
