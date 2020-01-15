@@ -5,7 +5,7 @@ Purpose
 The purpose of this document is to define the high-level requirements of the human services and emergency shelter system named CareAmarillo in terms of the needs of the human service users.
 ## Scope
 The CareAmarillo System will enable system users to find information on registered human services as well as emergency shelters.
-## Positioning
+
 ## Problem Statement
 Currently, there is no single system in place for the City of Amarillo that allows for both the registration of human services and emergency shelter information.  By creating such a system, the needs of those who utilize such resources can be better met by those who provide those resources.
 ## Stakeholder and User Descriptions
