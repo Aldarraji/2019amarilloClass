@@ -27,3 +27,5 @@ and Password.
 -You can reset password to reset password 
 -You can edit user infor from Admin 
 
+## LICENSE
+MIT
