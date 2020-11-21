@@ -1,4 +1,4 @@
-# CareAmarillo App.
+# CareAmarillo
 
 ## Introduction
 Purpose
