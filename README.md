@@ -13,19 +13,7 @@ This section describes the users of the CareAmarillo System. There are 4 types o
 
 ## Screenshots
 
-<img src="https://github.com/Aldarraji/2019amarilloClass/blob/master/Page1%2012_19_2019%202_37_50%20PM.png" width=200>
-
-<img src="https://github.com/Aldarraji/2019amarilloClass/blob/master/Page2%2012_19_2019%202_41_27%20PM.png" width=200>
-
-<img src="https://github.com/Aldarraji/2019amarilloClass/blob/master/Page3%2012_19_2019%202_41_20%20PM.png" width=200>
-
-<img src="https://github.com/Aldarraji/2019amarilloClass/blob/master/Page4%2012_19_2019%202_38_41%20PM.png" width=200>
-
-<img src="https://github.com/Aldarraji/2019amarilloClass/blob/master/Page5%2012_19_2019%202_39_21%20PM.png" width=200>
-
-<img src="https://github.com/Aldarraji/2019amarilloClass/blob/master/Page5%2012_19_2019%202_47_21%20PM.png" width=200>
-
-<img src="https://github.com/Aldarraji/2019amarilloClass/blob/master/Page6%2012_19_2019%202_40_05%20PM.png" width=200>
+<img src="https://github.com/Aldarraji/2019amarilloClass/blob/master/Page1%2012_19_2019%202_37_50%20PM.png" width=200> <img src="https://github.com/Aldarraji/2019amarilloClass/blob/master/Page2%2012_19_2019%202_41_27%20PM.png" width=200> <img src="https://github.com/Aldarraji/2019amarilloClass/blob/master/Page3%2012_19_2019%202_41_20%20PM.png" width=200> <img src="https://github.com/Aldarraji/2019amarilloClass/blob/master/Page4%2012_19_2019%202_38_41%20PM.png" width=200> <img src="https://github.com/Aldarraji/2019amarilloClass/blob/master/Page5%2012_19_2019%202_39_21%20PM.png" width=200> <img src="https://github.com/Aldarraji/2019amarilloClass/blob/master/Page5%2012_19_2019%202_47_21%20PM.png" width=200> <img src="https://github.com/Aldarraji/2019amarilloClass/blob/master/Page6%2012_19_2019%202_40_05%20PM.png" width=200>
 
 ## How to use CareAmarillo 
 To log in as Emergency shelter provider enter: UserID: User1 Password: Password1 
