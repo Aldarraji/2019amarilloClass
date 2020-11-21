@@ -1,6 +1,6 @@
-<p aling="center"><img src="https://raw.githubusercontent.com/wajeht/CareAmarillo/master/Screenshots/logo.jpg" width=200></p>
+<p aling="center"><img src="https://raw.githubusercontent.com/wajeht/CareAmarillo/master/Screenshots/logo.jpg" width="200"></p>
 
-# CareAmarillo
+# <p align="center">CareAmarillo</p>
 
 ## Introduction
 Purpose
